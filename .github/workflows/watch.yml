@@ -1,0 +1,46 @@
+name: CROUS logement watch
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crous-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run watcher
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          CROUS_SEARCH_URL: ${{ vars.CROUS_SEARCH_URL }}
+        run: python main.py
+
+      - name: Commit updated state
+        run: |
+          if [ -n "$(git status --porcelain seen_listings.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add seen_listings.json
+            git commit -m "chore: update seen listings"
+            git push
+          else
+            echo "Aucun changement à committer."
+          fi

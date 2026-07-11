@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 
 DEFAULT_SEARCH_URL = (
     "https://trouverunlogement.lescrous.fr/tools/47/search"
-    "?bounds=-0.413777_49.2162655_-0.3307282_49.1530145&locationName=Caen+%2814000%29"
+    "?bounds=4.6757739_49.8274329_4.784978_49.732827&locationName=Charleville-M%C3%A9zi%C3%A8res+%2808000%29"
 )
 SEARCH_URL = os.environ.get("CROUS_SEARCH_URL") or DEFAULT_SEARCH_URL
 

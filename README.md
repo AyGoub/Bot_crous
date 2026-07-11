@@ -55,11 +55,12 @@ La fréquence est définie par l'expression cron dans `.github/workflows/watch.y
 ```yaml
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
 ```
 
-Modifie cette ligne pour changer l'intervalle (ex. `*/30 * * * *` pour toutes les 30 minutes,
-`0 * * * *` pour toutes les heures). Le tableau de bord Actions du repo affichera aussi un
+Modifie cette ligne pour changer l'intervalle (ex. `*/15 * * * *` pour 15 minutes,
+`0 * * * *` pour toutes les heures). GitHub Actions n'exécute pas les cron plus vite que
+toutes les 5 minutes. Le tableau de bord Actions du repo affichera aussi un
 bouton **Run workflow** pour le déclencher manuellement (`workflow_dispatch`).
 
 À noter : GitHub peut retarder ou espacer les cron jobs en période de forte charge, et

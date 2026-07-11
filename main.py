@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 
 DEFAULT_SEARCH_URL = (
     "https://trouverunlogement.lescrous.fr/tools/47/search"
-    "?bounds=4.6757739_49.8274329_4.784978_49.732827&locationName=Charleville-M%C3%A9zi%C3%A8res+%2808000%29"
+    "?bounds=-0.413777_49.2162655_-0.3307282_49.1530145&locationName=Caen+%2814000%29"
 )
 SEARCH_URL = os.environ.get("CROUS_SEARCH_URL") or DEFAULT_SEARCH_URL
 
@@ -186,29 +186,33 @@ def main() -> int:
     logger.info("%d logement(s) trouvé(s) sur la page.", len(listings))
 
     seen = load_seen(STATE_FILE)
+    current_ids = {l["id"] for l in listings}
+    # On ne garde que les logements encore affichés sur la page : un logement loué
+    # puis remis en ligne plus tard (même ID) doit pouvoir renotifier.
+    next_state = {lid: meta for lid, meta in seen.items() if lid in current_ids}
+
     new_listings = [l for l in listings if l["id"] not in seen]
 
     if not new_listings:
         logger.info("Aucun nouveau logement.")
-        return 0
+    else:
+        logger.info("%d nouveau(x) logement(s) détecté(s).", len(new_listings))
+        for listing in new_listings:
+            try:
+                notify_discord(webhook_url, listing)
+            except requests.RequestException as e:
+                logger.error("Échec de l'envoi Discord pour %s : %s", listing["id"], e)
+                continue
 
-    logger.info("%d nouveau(x) logement(s) détecté(s).", len(new_listings))
+            next_state[listing["id"]] = {
+                "title": listing["title"],
+                "url": listing["url"],
+                "first_seen": datetime.now(timezone.utc).isoformat(),
+            }
+            time.sleep(1)
 
-    for listing in new_listings:
-        try:
-            notify_discord(webhook_url, listing)
-        except requests.RequestException as e:
-            logger.error("Échec de l'envoi Discord pour %s : %s", listing["id"], e)
-            continue
-
-        seen[listing["id"]] = {
-            "title": listing["title"],
-            "url": listing["url"],
-            "first_seen": datetime.now(timezone.utc).isoformat(),
-        }
-        time.sleep(1)
-
-    save_seen(STATE_FILE, seen)
+    if next_state != seen:
+        save_seen(STATE_FILE, next_state)
     return 0
 
 

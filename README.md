@@ -1,71 +1,69 @@
-# Bot de veille logements CROUS
+# Bot de veille — studios à Paris + petite couronne
 
-Surveille une recherche de logements sur [trouverunlogement.lescrous.fr](https://trouverunlogement.lescrous.fr)
-et envoie une notification Discord dès qu'une nouvelle annonce apparaît.
+Surveille les nouvelles annonces de **studios et T1** (logement individuel, pas de colocation)
+à **Paris (75), Hauts-de-Seine (92), Seine-Saint-Denis (93) et Val-de-Marne (94)**, jusqu'à
+**800 € charges comprises**, et envoie une notification Discord dès qu'une annonce apparaît.
 
-## Comment ça marche
+## Sources
 
-1. `main.py` charge la page de résultats de recherche (`SEARCH_URL`).
-2. Il parse les cartes de logement (`div.fr-card`) avec BeautifulSoup pour en extraire
-   adresse, loyer, surface, type et lien vers l'annonce.
-3. Il compare les ID trouvés à ceux déjà connus dans `seen_listings.json`.
-4. Chaque nouvelle annonce est envoyée sur un webhook Discord.
-5. `seen_listings.json` est mis à jour puis re-commité par le workflow GitHub Actions.
+| Source | Ce qu'elle couvre |
+|---|---|
+| [CROUS](https://trouverunlogement.lescrous.fr) | Résidences étudiantes CROUS (mode « Individuel » uniquement) |
+| [Bien'ici](https://www.bienici.com) | Annonces de la plupart des agences et réseaux (Century 21, Laforêt, Guy Hoquet, IAD…) |
 
-## 1. Récupérer l'URL de recherche filtrée
+Non couverts (protection anti-robots ou annonces chargées en JavaScript) : Leboncoin, SeLoger,
+PAP, Studapart, ImmoJeune. Pour ceux-là, active directement leurs alertes, ou utilise une appli
+qui les regroupe comme Jinka.
 
-1. Va sur https://trouverunlogement.lescrous.fr/ et lance une recherche (ville, prix max,
-   surface min, type de cohabitation, etc.).
-2. Une fois les filtres appliqués et les résultats affichés, copie l'URL complète dans la
-   barre d'adresse de ton navigateur. Elle ressemble à :
-   ```
-   https://trouverunlogement.lescrous.fr/tools/47/search?bounds=...&locationName=Caen+%2814000%29
-   ```
-3. Colle cette URL :
-   - soit directement dans `main.py`, en remplaçant la valeur de `DEFAULT_SEARCH_URL` ;
-   - soit dans une variable de repository GitHub `CROUS_SEARCH_URL` (Settings → Secrets and
-     variables → Actions → onglet **Variables**), ce qui évite de modifier le code.
+## Ce que fait le bot
 
-Le `47` dans l'URL correspond à l'année universitaire ciblée (visible aussi dans le menu
-« Je recherche un logement » du site) ; utilise l'ID correspondant à la période qui t'intéresse.
+1. Il récupère toutes les annonces de chaque source (toutes les pages).
+2. Il applique les filtres communs :
+   - loyer ≤ `MAX_RENT` (800 €) charges comprises ;
+   - surface ≥ `MIN_SURFACE` (9 m², le minimum légal d'un logement décent) ;
+   - code postal dans `DEPARTMENTS` (75, 92, 93, 94) ;
+   - exclusion des colocations, colivings et chambres chez l'habitant (les chambres de bonne
+     sont gardées).
+3. Il compare avec `seen_listings.json` et notifie seulement les nouvelles annonces, les moins
+   chères d'abord :
+   - 🔥 **vert** : loyer ≤ `TARGET_RENT` (700 €) ;
+   - **bleu** : entre 700 et 800 € ;
+   - **orange** avec ⚠️ : indices d'arnaque (e-mail dans le titre, « Western Union », prix au m²
+     anormalement bas…) ou bail code civil.
+4. À la première vérification d'une source, il envoie **un seul message récapitulatif** (les
+   15 moins chères) au lieu de centaines de notifications.
+5. Une annonce retirée puis remise en ligne est notifiée à nouveau.
+6. Si un site est indisponible ou limite le trafic, le bot passe son tour sans perdre l'état.
 
-## 2. Créer un webhook Discord
+## Configuration
 
-1. Dans Discord, va dans les paramètres du salon où tu veux recevoir les alertes →
-   **Intégrations** → **Webhooks** → **Nouveau webhook**.
-2. Donne-lui un nom, choisis le salon, puis clique sur **Copier l'URL du webhook**.
-3. Garde cette URL secrète : elle permet d'envoyer des messages dans ton salon.
+### Secret obligatoire : `DISCORD_WEBHOOK_URL`
 
-## 3. Configurer le secret GitHub `DISCORD_WEBHOOK_URL`
+1. Dans Discord : paramètres du salon → **Intégrations** → **Webhooks** → **Nouveau webhook** →
+   **Copier l'URL du webhook**.
+2. Dans GitHub : **Settings** → **Secrets and variables** → **Actions** → onglet **Secrets** →
+   **New repository secret**, nom `DISCORD_WEBHOOK_URL`.
 
-Dans le repository GitHub :
+### Variables facultatives (onglet **Variables**)
 
-1. **Settings** → **Secrets and variables** → **Actions** → onglet **Secrets** → **New
-   repository secret**.
-2. Nom : `DISCORD_WEBHOOK_URL`
-3. Valeur : l'URL copiée à l'étape précédente.
+| Variable | Défaut | Rôle |
+|---|---|---|
+| `MAX_RENT` | `800` | Loyer maximum charges comprises |
+| `TARGET_RENT` | `700` | En dessous, l'annonce est marquée 🔥 |
+| `MIN_SURFACE` | `9` | Surface minimale en m² |
+| `DEPARTMENTS` | `75,92,93,94` | Départements acceptés (préfixes de code postal) |
+| `CROUS_SEARCH_URL` | Paris + petite couronne, année 2026-2027 | URL de recherche CROUS |
 
-Le workflow `.github/workflows/watch.yml` lit ce secret et le passe au script en variable
-d'environnement.
+⚠️ Si tu avais défini `CROUS_SEARCH_URL` pour Caen, **supprime-la** : elle remplacerait la
+recherche Paris. L'ID dans l'URL CROUS (`/tools/48/`) correspond à l'année universitaire et
+change chaque année (l'ancien `47` renvoie maintenant une erreur 404).
 
-## 4. Ajuster la fréquence de vérification
+## Fréquence
 
-La fréquence est définie par l'expression cron dans `.github/workflows/watch.yml` :
-
-```yaml
-on:
-  schedule:
-    - cron: "*/5 * * * *"
-```
-
-Modifie cette ligne pour changer l'intervalle (ex. `*/15 * * * *` pour 15 minutes,
-`0 * * * *` pour toutes les heures). GitHub Actions n'exécute pas les cron plus vite que
-toutes les 5 minutes. Le tableau de bord Actions du repo affichera aussi un
-bouton **Run workflow** pour le déclencher manuellement (`workflow_dispatch`).
-
-À noter : GitHub peut retarder ou espacer les cron jobs en période de forte charge, et
-désactive automatiquement les workflows planifiés après 60 jours sans activité sur le repo
-(un `workflow_dispatch` manuel ou un commit suffit à les réactiver).
+Le workflow `.github/workflows/watch.yml` tourne **toutes les 15 minutes** (`*/15 * * * *`).
+Le repo est public, donc les minutes GitHub Actions sont gratuites. GitHub peut retarder les
+cron en période de forte charge, et désactive les workflows planifiés après 60 jours sans
+activité sur le repo. Dans ce cas, réactive-le depuis l'onglet **Actions**.
 
 ## Exécution locale
 
@@ -77,7 +75,8 @@ python main.py
 
 ## Fichiers
 
-- `main.py` — script de veille
-- `requirements.txt` — dépendances (`requests`, `beautifulsoup4`)
-- `.github/workflows/watch.yml` — planification GitHub Actions + commit automatique de l'état
-- `seen_listings.json` — état persistant des annonces déjà notifiées
+- `main.py` : filtres, détection d'arnaques, notifications Discord, état.
+- `sources/crous.py`, `sources/bienici.py` : un module par site. Pour ajouter un site, il suffit
+  de créer un module avec une fonction `fetch()` qui renvoie des annonces au même format (voir
+  `sources/__init__.py`), puis de l'ajouter à `SOURCES` dans `main.py`.
+- `seen_listings.json` : annonces déjà notifiées (mis à jour par le workflow).

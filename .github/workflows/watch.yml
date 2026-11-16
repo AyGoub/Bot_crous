@@ -1,8 +1,9 @@
-name: CROUS logement watch
+name: Veille studios Paris
 
 on:
   schedule:
-    - cron: "0 5,10,16,21 * * *"
+    # Toutes les 15 minutes : à Paris, un studio à moins de 800 € part en quelques heures.
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -31,6 +32,10 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           CROUS_SEARCH_URL: ${{ vars.CROUS_SEARCH_URL }}
+          MAX_RENT: ${{ vars.MAX_RENT }}
+          TARGET_RENT: ${{ vars.TARGET_RENT }}
+          MIN_SURFACE: ${{ vars.MIN_SURFACE }}
+          DEPARTMENTS: ${{ vars.DEPARTMENTS }}
         run: python main.py
 
       - name: Commit updated state

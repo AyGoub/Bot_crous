@@ -1,4 +1,4 @@
-"""Veille des nouveaux logements CROUS (trouverunlogement.lescrous.fr) avec notification Discord."""
+"""Veille des studios / T1 à Paris + petite couronne (CROUS, Bien'ici) avec notification Discord."""
 
 import json
 import logging
@@ -7,148 +7,194 @@ import random
 import re
 import sys
 import time
+import unicodedata
 from datetime import datetime, timezone
-from urllib.parse import urljoin, urlparse
 
 import requests
-from bs4 import BeautifulSoup
 
-DEFAULT_SEARCH_URL = (
-    "https://trouverunlogement.lescrous.fr/tools/47/search"
-    "?bounds=-0.413777_49.2162655_-0.3307282_49.1530145&locationName=Caen+%2814000%29"
-)
-SEARCH_URL = os.environ.get("CROUS_SEARCH_URL") or DEFAULT_SEARCH_URL
+from sources import SourceUnavailable, bienici, crous
+
+# --- Critères de recherche (modifiables via variables d'environnement) ----------------------
+MAX_RENT = float((os.environ.get("MAX_RENT") or "800"))  # loyer max charges comprises
+TARGET_RENT = float((os.environ.get("TARGET_RENT") or "700"))  # en dessous : signalé "bon prix"
+# 9 m² = surface minimale d'un logement décent (décret 2002-120) : en dessous, c'est illégal.
+MIN_SURFACE = float((os.environ.get("MIN_SURFACE") or "9"))
+DEPARTMENTS = tuple(d.strip() for d in (os.environ.get("DEPARTMENTS") or "75,92,93,94").split(","))
 
 STATE_FILE = os.environ.get("STATE_FILE", "seen_listings.json")
-
-USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-)
 REQUEST_TIMEOUT = 15
-MIN_DELAY_SECONDS = 2
-MAX_DELAY_SECONDS = 5
+MAX_INITIAL_SUMMARY = 15
 
-# Message affiché par le site CROUS quand il limite l'accès (page "Vous êtes trop nombreux !").
-RATE_LIMIT_MARKER = "trop nombreux"
-
-SURFACE_RE = re.compile(r"\d+(?:[.,]\d+)?\s*m²", re.IGNORECASE)
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
+# Annonces de logement partagé : on cherche uniquement à vivre seul.
+SHARED_KEYWORDS = (
+    "colocation", "coloc ", "colocataire", "coliving", "co-living", "chez l'habitant",
+    "sous-location", "sous location", "logement partage", "appartement partage",
 )
-logger = logging.getLogger("crous_watch")
+# Indices fréquents d'arnaque (faux propriétaire, paiement avant visite...).
+SCAM_KEYWORDS = (
+    "western union", "mandat cash", "transcash", "moneygram", "coupon pcs", "a l'etranger",
+    "je suis actuellement", "remise des cles par", "envoyer les cles", "airbnb", "payer avant",
+)
+EMAIL_RE = re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+")
+# Loyer au m² sous lequel une annonce à Paris + petite couronne est suspecte.
+SUSPICIOUS_PRICE_PER_M2 = 15
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+logger = logging.getLogger("logement_watch")
 
 
-def fetch_search_page(url: str) -> requests.Response:
-    headers = {"User-Agent": USER_AGENT, "Accept-Language": "fr-FR,fr;q=0.9"}
-    response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
-    # Le site ne déclare pas de charset dans Content-Type ; requests retombe alors
-    # sur ISO-8859-1 par défaut alors que la page est en UTF-8, ce qui corrompt
-    # les caractères accentués (adresses, loyers en €).
-    response.encoding = "utf-8"
-    return response
+def normalize(text: str | None) -> str:
+    """Minuscules sans accents, pour comparer des mots-clés."""
+    text = unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode()
+    return text.lower().replace("’", "'")
 
 
-def is_rate_limited(html_text: str) -> bool:
-    return RATE_LIMIT_MARKER in html_text.lower()
+def keep_listing(listing: dict) -> tuple[bool, str]:
+    """Filtre commun à toutes les sources. Renvoie (garder, raison du rejet)."""
+    if not listing.get("solo"):
+        return False, "pas de logement individuel"
+    if listing["rent"] is not None and listing["rent"] > MAX_RENT:
+        return False, f"loyer {listing['rent']:g} € > {MAX_RENT:g} €"
+    if listing["surface"] is not None and listing["surface"] < MIN_SURFACE:
+        return False, f"surface {listing['surface']:g} m² < {MIN_SURFACE:g} m²"
+    postal_code = listing.get("postal_code")
+    if postal_code and not postal_code.startswith(DEPARTMENTS):
+        return False, f"hors zone ({postal_code})"
+    title = normalize(listing["title"])
+    # Une "chambre" seule est en général dans un logement partagé, mais une chambre de
+    # bonne / de service est un petit logement indépendant : on la garde.
+    if "chambre" in title and "de bonne" not in title and "de service" not in title:
+        return False, "chambre (logement partagé probable)"
+    for keyword in SHARED_KEYWORDS:
+        if keyword in title:
+            return False, f"logement partagé ({keyword.strip()})"
+    return True, ""
 
 
-def extract_listing_id(href: str) -> str | None:
-    path = urlparse(href).path.rstrip("/")
-    segment = path.split("/")[-1] if path else ""
-    return segment or None
+def scam_warnings(listing: dict) -> list[str]:
+    warnings = []
+    text = normalize(f"{listing['title']} {listing.get('description', '')}")
+    found = [k for k in SCAM_KEYWORDS if k in text]
+    if found:
+        warnings.append(f"mots suspects : {', '.join(found)}")
+    if EMAIL_RE.search(listing["title"]):
+        warnings.append("adresse e-mail dans le titre")
+    rent, surface = listing["rent"], listing["surface"]
+    if rent and surface and surface >= 10 and rent / surface < SUSPICIOUS_PRICE_PER_M2:
+        warnings.append(f"prix anormalement bas ({rent / surface:.0f} €/m²)")
+    if "code civil" in text or "residence secondaire" in text:
+        warnings.append("bail code civil / résidence secondaire (moins protecteur)")
+    return warnings
 
 
-def parse_card(card: BeautifulSoup, base_url: str) -> dict | None:
-    title_el = card.find("h3", class_="fr-card__title")
-    link_el = title_el.find("a") if title_el else None
-    href = link_el.get("href") if link_el else None
-    if not href:
-        return None
-
-    listing_id = extract_listing_id(href)
-    if listing_id is None:
-        return None
-
-    address_el = card.find("p", class_="fr-card__desc")
-    # Les détails sont rendus en <li> (avec une icône SVG en plus du texte), mais on
-    # matche sur la classe seule pour rester robuste si le site change de balise.
-    detail_els = card.find_all(class_="fr-card__detail")
-    details = [d.get_text(strip=True) for d in detail_els]
-
-    # Les paragraphes de détail ne sont pas typés : on repère la surface via
-    # regex et on prend le premier détail restant comme "type" de logement.
-    surface = None
-    listing_type = None
-    for detail in details:
-        match = SURFACE_RE.search(detail)
-        if match and surface is None:
-            surface = match.group(0)
-        elif listing_type is None:
-            listing_type = detail
-
-    price_el = card.find("p", class_="fr-badge")
-
-    return {
-        "id": listing_id,
-        "title": link_el.get_text(strip=True),
-        "address": address_el.get_text(strip=True) if address_el else None,
-        "rent": price_el.get_text(strip=True) if price_el else None,
-        "surface": surface,
-        "type": listing_type,
-        "details": details,
-        "url": urljoin(base_url, href),
-    }
-
-
-def parse_listings(html_text: str, base_url: str) -> list[dict]:
-    soup = BeautifulSoup(html_text, "html.parser")
-    cards = soup.find_all("div", class_="fr-card")
-    listings = []
-    for card in cards:
-        listing = parse_card(card, base_url)
-        if listing:
-            listings.append(listing)
-    return listings
-
-
-def load_seen(path: str) -> dict:
+# --- État ------------------------------------------------------------------------------------
+def load_state(path: str) -> dict:
+    state = {"listings": {}, "initialized_sources": []}
     if not os.path.exists(path):
-        return {}
+        return state
     try:
         with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+            data = json.load(f)
     except (json.JSONDecodeError, OSError) as e:
         logger.warning("Impossible de lire %s (%s), on repart d'un état vide.", path, e)
-        return {}
+        return state
+    if "listings" in data:
+        state.update(data)
+    else:
+        # Ancien format (CROUS seul, {id: meta}).
+        state["listings"] = {f"crous:{k}": v for k, v in data.items()}
+    return state
 
 
-def save_seen(path: str, seen: dict) -> None:
+def save_state(path: str, state: dict) -> None:
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(seen, f, ensure_ascii=False, indent=2, sort_keys=True)
+        json.dump(state, f, ensure_ascii=False, indent=2, sort_keys=True)
         f.write("\n")
 
 
-def notify_discord(webhook_url: str, listing: dict) -> None:
+# --- Discord ---------------------------------------------------------------------------------
+def post_discord(webhook_url: str, payload: dict) -> None:
+    for _ in range(3):
+        resp = requests.post(webhook_url, json=payload, timeout=REQUEST_TIMEOUT)
+        if resp.status_code == 429:
+            time.sleep(float(resp.json().get("retry_after", 2)))
+            continue
+        resp.raise_for_status()
+        return
+    resp.raise_for_status()
+
+
+def listing_embed(listing: dict, source_label: str) -> dict:
+    rent = listing["rent"]
+    good_price = rent is not None and rent <= TARGET_RENT
+    if listing["warnings"]:
+        color = 0xE67E22  # orange
+    elif good_price:
+        color = 0x2ECC71  # vert
+    else:
+        color = 0x3498DB  # bleu
+
+    title = listing["title"] or "Nouveau logement"
+    if good_price:
+        title = f"🔥 {title}"
     embed = {
-        "title": listing["title"] or "Nouveau logement CROUS",
+        "title": title[:256],
         "url": listing["url"],
-        "color": 0x0F8000,
+        "color": color,
+        "footer": {"text": source_label},
         "fields": [],
     }
-    if listing["address"]:
-        embed["fields"].append({"name": "Adresse", "value": listing["address"], "inline": False})
-    if listing["rent"]:
-        embed["fields"].append({"name": "Loyer", "value": listing["rent"], "inline": True})
+    location = " ".join(x for x in (listing.get("postal_code"), listing.get("city")) if x)
+    if location:
+        embed["fields"].append({"name": "Lieu", "value": location[:1024], "inline": False})
+    if listing.get("rent_text"):
+        embed["fields"].append({"name": "Loyer", "value": listing["rent_text"], "inline": True})
     if listing["surface"]:
-        embed["fields"].append({"name": "Surface", "value": listing["surface"], "inline": True})
-    if listing["type"]:
-        embed["fields"].append({"name": "Type", "value": listing["type"], "inline": True})
+        value = f"{listing['surface']:g} m²"
+        if rent:
+            value += f" ({rent / listing['surface']:.0f} €/m²)"
+        embed["fields"].append({"name": "Surface", "value": value, "inline": True})
+    if listing.get("kind"):
+        embed["fields"].append({"name": "Type", "value": listing["kind"][:1024], "inline": True})
+    if listing.get("publisher"):
+        embed["fields"].append({"name": "Publié par", "value": str(listing["publisher"])[:1024], "inline": True})
+    if listing["warnings"]:
+        embed["fields"].append({
+            "name": "⚠️ Prudence",
+            "value": "\n".join(f"• {w}" for w in listing["warnings"])[:1024]
+            + "\nNe paie jamais rien avant d'avoir visité et signé le bail.",
+            "inline": False,
+        })
+    if listing.get("image"):
+        embed["thumbnail"] = {"url": listing["image"]}
+    return embed
 
-    resp = requests.post(webhook_url, json={"embeds": [embed]}, timeout=REQUEST_TIMEOUT)
-    resp.raise_for_status()
+
+def summary_embed(source_label: str, listings: list[dict]) -> dict:
+    """Premier passage sur une source : un seul message récapitulatif au lieu de centaines."""
+    best = sorted(listings, key=lambda l: (bool(l["warnings"]), l["rent"] or 0))[:MAX_INITIAL_SUMMARY]
+    lines = []
+    for l in best:
+        parts = [l["rent_text"] or "?"]
+        if l["surface"]:
+            parts.append(f"{l['surface']:g} m²")
+        parts.append(" ".join(x for x in (l.get("postal_code"), l.get("city")) if x))
+        lines.append(f"[{' · '.join(parts)}]({l['url']})")
+    return {
+        "title": f"{source_label} : {len(listings)} annonce(s) déjà en ligne",
+        "description": (
+            "Première vérification de cette source : je ne t'envoie que les "
+            f"{len(best)} moins chères, puis uniquement les nouvelles.\n\n" + "\n".join(lines)
+        )[:4096],
+        "color": 0x95A5A6,
+    }
+
+
+# --- Programme principal ---------------------------------------------------------------------
+SOURCES = [
+    (crous, lambda: crous.fetch()),
+    (bienici, lambda: bienici.fetch(MAX_RENT)),
+]
 
 
 def main() -> int:
@@ -157,62 +203,75 @@ def main() -> int:
         logger.error("La variable d'environnement DISCORD_WEBHOOK_URL n'est pas définie.")
         return 1
 
-    time.sleep(random.uniform(MIN_DELAY_SECONDS, MAX_DELAY_SECONDS))
+    state = load_state(STATE_FILE)
+    previous = state["listings"]
+    next_listings: dict[str, dict] = {}
+    initialized = set(state["initialized_sources"])
 
-    try:
-        response = fetch_search_page(SEARCH_URL)
-    except requests.RequestException as e:
-        logger.error("Échec de la connexion au site CROUS : %s", e)
-        return 0
+    for module, fetch in SOURCES:
+        prefix = f"{module.NAME}:"
+        time.sleep(random.uniform(1, 3))
+        try:
+            raw = fetch()
+        except SourceUnavailable as e:
+            logger.warning("%s indisponible (%s) : on garde son état précédent.", module.LABEL, e)
+            next_listings.update({k: v for k, v in previous.items() if k.startswith(prefix)})
+            continue
+        except Exception:
+            logger.exception("Erreur inattendue sur %s : on garde son état précédent.", module.LABEL)
+            next_listings.update({k: v for k, v in previous.items() if k.startswith(prefix)})
+            continue
 
-    if response.status_code in (429, 503):
-        logger.warning("Le site CROUS répond %s (limitation de trafic probable), on abandonne ce run.", response.status_code)
-        return 0
+        kept = []
+        for listing in raw:
+            ok, reason = keep_listing(listing)
+            if ok:
+                listing["warnings"] = listing["warnings"] + scam_warnings(listing)
+                kept.append(listing)
+            else:
+                logger.debug("Ignoré %s%s : %s", prefix, listing["id"], reason)
+        logger.info("%s : %d annonce(s) correspondent aux critères.", module.LABEL, len(kept))
 
-    if response.status_code != 200:
-        logger.error("Code de statut inattendu du site CROUS : %s", response.status_code)
-        return 0
+        current_ids = {prefix + l["id"] for l in kept}
+        # On ne garde que les annonces encore en ligne : une annonce retirée puis remise en
+        # ligne plus tard (même ID) doit pouvoir renotifier.
+        next_listings.update({k: v for k, v in previous.items() if k in current_ids})
+        new = [l for l in kept if prefix + l["id"] not in previous]
 
-    if is_rate_limited(response.text):
-        logger.warning("Page de limitation de trafic détectée sur le site CROUS, on abandonne ce run.")
-        return 0
-
-    try:
-        listings = parse_listings(response.text, response.url)
-    except Exception as e:
-        logger.error("Échec du parsing de la page de résultats : %s", e)
-        return 0
-
-    logger.info("%d logement(s) trouvé(s) sur la page.", len(listings))
-
-    seen = load_seen(STATE_FILE)
-    current_ids = {l["id"] for l in listings}
-    # On ne garde que les logements encore affichés sur la page : un logement loué
-    # puis remis en ligne plus tard (même ID) doit pouvoir renotifier.
-    next_state = {lid: meta for lid, meta in seen.items() if lid in current_ids}
-
-    new_listings = [l for l in listings if l["id"] not in seen]
-
-    if not new_listings:
-        logger.info("Aucun nouveau logement.")
-    else:
-        logger.info("%d nouveau(x) logement(s) détecté(s).", len(new_listings))
-        for listing in new_listings:
-            try:
-                notify_discord(webhook_url, listing)
-            except requests.RequestException as e:
-                logger.error("Échec de l'envoi Discord pour %s : %s", listing["id"], e)
-                continue
-
-            next_state[listing["id"]] = {
+        def remember(listing: dict) -> None:
+            next_listings[prefix + listing["id"]] = {
                 "title": listing["title"],
                 "url": listing["url"],
+                "rent": listing["rent"],
                 "first_seen": datetime.now(timezone.utc).isoformat(),
             }
-            time.sleep(1)
 
-    if next_state != seen:
-        save_seen(STATE_FILE, next_state)
+        if module.NAME not in initialized:
+            try:
+                if new:
+                    post_discord(webhook_url, {"embeds": [summary_embed(module.LABEL, new)]})
+            except requests.RequestException as e:
+                logger.error("Échec de l'envoi Discord du récapitulatif %s : %s", module.LABEL, e)
+                continue
+            for listing in new:
+                remember(listing)
+            initialized.add(module.NAME)
+            continue
+
+        # Les moins chères d'abord.
+        for listing in sorted(new, key=lambda l: l["rent"] or 0):
+            try:
+                post_discord(webhook_url, {"embeds": [listing_embed(listing, module.LABEL)]})
+            except requests.RequestException as e:
+                logger.error("Échec de l'envoi Discord pour %s%s : %s", prefix, listing["id"], e)
+                continue
+            remember(listing)
+            time.sleep(1)
+        logger.info("%s : %d nouvelle(s) annonce(s) notifiée(s).", module.LABEL, len(new))
+
+    new_state = {"listings": next_listings, "initialized_sources": sorted(initialized)}
+    if new_state != state:
+        save_state(STATE_FILE, new_state)
     return 0
 
 

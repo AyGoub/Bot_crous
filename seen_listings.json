@@ -598,6 +598,12 @@
       "title": "Studio centre-ville Mandres les roses",
       "url": "https://www.bienici.com/annonce/apimo-87597735"
     },
+    "bienici:apimo-87603432": {
+      "first_seen": "2026-11-17T23:58:34.190087+00:00",
+      "rent": 668.23,
+      "title": "T1 — Noisy-le-Grand",
+      "url": "https://www.bienici.com/annonce/apimo-87603432"
+    },
     "bienici:century-21-202_1113_27899": {
       "first_seen": "2026-11-16T15:58:45.673840+00:00",
       "rent": 740.0,
@@ -874,12 +880,6 @@
       "title": "LE RAINCY F1 MEUBLE AVEC GOUT",
       "url": "https://www.bienici.com/annonce/hektor-agenceepoque-596"
     },
-    "bienici:hektor-agencesector-2265": {
-      "first_seen": "2026-11-17T17:32:10.479426+00:00",
-      "rent": 701.0,
-      "title": "Paris 17ème - Studio avec Terrasse - Guy Môquet",
-      "url": "https://www.bienici.com/annonce/hektor-agencesector-2265"
-    },
     "bienici:hektor-bkimmobilier11-955": {
       "first_seen": "2026-11-16T15:58:45.673701+00:00",
       "rent": 800.0,
@@ -1012,6 +1012,12 @@
       "title": "Location Appartement 1 pièce",
       "url": "https://www.bienici.com/annonce/iad-france-2158012"
     },
+    "bienici:iad-france-2161763": {
+      "first_seen": "2026-11-17T23:58:35.402924+00:00",
+      "rent": 756.0,
+      "title": "Location Studio 1 pièce",
+      "url": "https://www.bienici.com/annonce/iad-france-2161763"
+    },
     "bienici:ifsp6a-4973724": {
       "first_seen": "2026-11-16T15:58:45.673785+00:00",
       "rent": 770.0,
@@ -1036,11 +1042,11 @@
       "title": "Appartement STAINS - Studio 19.04m2",
       "url": "https://www.bienici.com/annonce/immo-facile-43279231"
     },
-    "bienici:immo-facile-52938185": {
-      "first_seen": "2026-11-17T00:09:19.562484+00:00",
-      "rent": 740.0,
-      "title": "Appartement Nanterre 1 pièce(s) 16 m2",
-      "url": "https://www.bienici.com/annonce/immo-facile-52938185"
+    "bienici:immo-facile-44206008": {
+      "first_seen": "2026-11-17T23:58:36.637854+00:00",
+      "rent": 790.0,
+      "title": "STUDIO CHATENAY MALABRY - 1 pièce(s) - 33.18 m2",
+      "url": "https://www.bienici.com/annonce/immo-facile-44206008"
     },
     "bienici:immo-facile-54763190": {
       "first_seen": "2026-11-16T15:58:45.673950+00:00",
@@ -1138,12 +1144,6 @@
       "title": "Studio Neuilly Plaisance 17.62 m2",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-52991755"
     },
-    "bienici:laforet-immo-facile-53010902": {
-      "first_seen": "2026-11-17T00:09:21.993830+00:00",
-      "rent": 753.0,
-      "title": "Appartement Paris 1 pièce(s) 19.17 m2",
-      "url": "https://www.bienici.com/annonce/laforet-immo-facile-53010902"
-    },
     "bienici:laforet-immo-facile-53012859": {
       "first_seen": "2026-11-16T15:58:45.673726+00:00",
       "rent": 680.0,
@@ -1167,6 +1167,12 @@
       "rent": 650.0,
       "title": "Appartement Livry Gargan 1 pièce(s) 20.50 m2",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-53030533"
+    },
+    "bienici:mgc-ancien-SNI_0000_215524": {
+      "first_seen": "2026-11-17T23:58:30.299584+00:00",
+      "rent": 446.02,
+      "title": "Appartement T1",
+      "url": "https://www.bienici.com/annonce/mgc-ancien-SNI_0000_215524"
     },
     "bienici:nestenn-1-99939504129": {
       "first_seen": "2026-11-16T15:58:45.673884+00:00",
@@ -1210,6 +1216,12 @@
       "title": "T1-22.16m2-VITRY-SUR-SEINE",
       "url": "https://www.bienici.com/annonce/netty-company54028bva-appt-16956"
     },
+    "bienici:netty-cost92-appt-20269": {
+      "first_seen": "2026-11-17T23:58:33.013319+00:00",
+      "rent": 613.0,
+      "title": "Joli studio meublé",
+      "url": "https://www.bienici.com/annonce/netty-cost92-appt-20269"
+    },
     "bienici:netty-heim-appt-2177": {
       "first_seen": "2026-11-16T15:58:45.673859+00:00",
       "rent": 770.0,
@@ -1239,6 +1251,12 @@
       "rent": 717.0,
       "title": "Appartement à louer Le Perreux-sur-Marne",
       "url": "https://www.bienici.com/annonce/netty-lereseauimmo-appt-3046"
+    },
+    "bienici:netty-lereseauimmo-appt-3061": {
+      "first_seen": "2026-11-17T23:58:31.707989+00:00",
+      "rent": 613.0,
+      "title": "Appartement à louer Paris",
+      "url": "https://www.bienici.com/annonce/netty-lereseauimmo-appt-3061"
     },
     "bienici:netty-lereseauimmo-appt-3062": {
       "first_seen": "2026-11-16T15:58:45.673628+00:00",

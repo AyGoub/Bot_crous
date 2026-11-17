@@ -58,6 +58,12 @@
       "title": "Studio / 16m² / Mairie d'Ivry (Ligne 7)",
       "url": "https://www.bienici.com/annonce/ag750135-560475524"
     },
+    "bienici:ag751890-557893856": {
+      "first_seen": "2026-11-17T00:09:15.001707+00:00",
+      "rent": 617.0,
+      "title": "STUDIO - Croix Nivert",
+      "url": "https://www.bienici.com/annonce/ag751890-557893856"
+    },
     "bienici:ag752345-553184693": {
       "first_seen": "2026-11-16T15:58:45.673823+00:00",
       "rent": 787.12,
@@ -100,11 +106,17 @@
       "title": "Appartement studio à PARIS 15ème",
       "url": "https://www.bienici.com/annonce/ag752352-558177665"
     },
-    "bienici:ag752352-559045778": {
-      "first_seen": "2026-11-16T15:58:45.673685+00:00",
-      "rent": 739.0,
-      "title": "Appartement studio à PARIS 3ème",
-      "url": "https://www.bienici.com/annonce/ag752352-559045778"
+    "bienici:ag752352-560551214": {
+      "first_seen": "2026-11-17T00:09:23.316475+00:00",
+      "rent": 799.0,
+      "title": "Appartement studio à PARIS 10ème",
+      "url": "https://www.bienici.com/annonce/ag752352-560551214"
+    },
+    "bienici:ag752352-560551229": {
+      "first_seen": "2026-11-17T00:09:13.872868+00:00",
+      "rent": 541.0,
+      "title": "Appartement studio à SAINT DENIS",
+      "url": "https://www.bienici.com/annonce/ag752352-560551229"
     },
     "bienici:ag752485-554905364": {
       "first_seen": "2026-11-16T15:58:45.673799+00:00",
@@ -268,23 +280,11 @@
       "title": "Studio meublé de 15 m2",
       "url": "https://www.bienici.com/annonce/ag753878-499406135"
     },
-    "bienici:ag754025-555864431": {
-      "first_seen": "2026-11-16T15:58:45.673783+00:00",
-      "rent": 659.0,
-      "title": "Studio",
-      "url": "https://www.bienici.com/annonce/ag754025-555864431"
-    },
     "bienici:ag754025-556121216": {
       "first_seen": "2026-11-16T15:58:45.673777+00:00",
       "rent": 765.0,
       "title": "Studio",
       "url": "https://www.bienici.com/annonce/ag754025-556121216"
-    },
-    "bienici:ag754025-556754468": {
-      "first_seen": "2026-11-16T15:58:45.673762+00:00",
-      "rent": 624.0,
-      "title": "Studio",
-      "url": "https://www.bienici.com/annonce/ag754025-556754468"
     },
     "bienici:ag754025-558980900": {
       "first_seen": "2026-11-16T15:58:45.673692+00:00",
@@ -363,6 +363,12 @@
       "rent": 720.0,
       "title": "Co-location à Villiers-sur-Marne (94350)",
       "url": "https://www.bienici.com/annonce/ag755239-548207288"
+    },
+    "bienici:ag755239-554252582": {
+      "first_seen": "2026-11-17T00:09:16.108348+00:00",
+      "rent": 635.0,
+      "title": "Co-location à Orly (94310)",
+      "url": "https://www.bienici.com/annonce/ag755239-554252582"
     },
     "bienici:ag755239-559166411": {
       "first_seen": "2026-11-16T15:58:45.673673+00:00",
@@ -820,12 +826,6 @@
       "title": "Appartement à louer de 1 pièce de 24.2 m²",
       "url": "https://www.bienici.com/annonce/guy-hoquet-18-GT0335-36-38"
     },
-    "bienici:guy-hoquet-18-GT0335-36-41": {
-      "first_seen": "2026-11-16T15:58:45.673678+00:00",
-      "rent": 720.0,
-      "title": "LOCATION1 pièce de 21.59 m² EN MEUBLÉ",
-      "url": "https://www.bienici.com/annonce/guy-hoquet-18-GT0335-36-41"
-    },
     "bienici:guy-hoquet-18-GT0423-8326": {
       "first_seen": "2026-11-16T15:58:45.673643+00:00",
       "rent": 790.0,
@@ -879,12 +879,6 @@
       "rent": 790.0,
       "title": "Studio 19.77m2 55 POUCHET",
       "url": "https://www.bienici.com/annonce/hektor-1_piic-immobilier-paris-1222"
-    },
-    "bienici:hektor-CABINETGUERIN-2141": {
-      "first_seen": "2026-11-16T15:58:45.673699+00:00",
-      "rent": 625.0,
-      "title": "48 av du MESNIL - au calme a 450 m RER LA VARENNE",
-      "url": "https://www.bienici.com/annonce/hektor-CABINETGUERIN-2141"
     },
     "bienici:hektor-IMMODEUX2020-361": {
       "first_seen": "2026-11-16T15:58:45.673926+00:00",
@@ -994,17 +988,17 @@
       "title": "Studio au calme proche gare de Bécon !",
       "url": "https://www.bienici.com/annonce/hektor-lebihan-1812"
     },
-    "bienici:hektor-paris_est-2209": {
-      "first_seen": "2026-11-16T15:58:45.673790+00:00",
-      "rent": 660.0,
-      "title": "Appartement de type studio proche de la Gare",
-      "url": "https://www.bienici.com/annonce/hektor-paris_est-2209"
-    },
     "bienici:hektor-sgi-g-gicquel-1160": {
       "first_seen": "2026-11-16T15:58:45.673842+00:00",
       "rent": 680.0,
       "title": "Studio rénové de 19.70 M2   Ormesson-sur-Marne",
       "url": "https://www.bienici.com/annonce/hektor-sgi-g-gicquel-1160"
+    },
+    "bienici:hektor-sgi-g-gicquel-1169": {
+      "first_seen": "2026-11-17T00:09:17.286704+00:00",
+      "rent": 675.0,
+      "title": "À LOUER   STUDIO DE 20 m2   SAINT-MAUR-DES-FOSSÉS",
+      "url": "https://www.bienici.com/annonce/hektor-sgi-g-gicquel-1169"
     },
     "bienici:hektor-sgi-g-gicquel-153": {
       "first_seen": "2026-11-16T15:58:45.673824+00:00",
@@ -1042,12 +1036,6 @@
       "title": "Location Appartement 1 pièce",
       "url": "https://www.bienici.com/annonce/iad-france-2158012"
     },
-    "bienici:iad-france-2159145": {
-      "first_seen": "2026-11-16T15:58:45.673625+00:00",
-      "rent": 700.0,
-      "title": "Location Appartement 1 pièce",
-      "url": "https://www.bienici.com/annonce/iad-france-2159145"
-    },
     "bienici:ifsp6a-4973724": {
       "first_seen": "2026-11-16T15:58:45.673785+00:00",
       "rent": 770.0,
@@ -1071,6 +1059,12 @@
       "rent": 490.0,
       "title": "Appartement STAINS - Studio 19.04m2",
       "url": "https://www.bienici.com/annonce/immo-facile-43279231"
+    },
+    "bienici:immo-facile-52938185": {
+      "first_seen": "2026-11-17T00:09:19.562484+00:00",
+      "rent": 740.0,
+      "title": "Appartement Nanterre 1 pièce(s) 16 m2",
+      "url": "https://www.bienici.com/annonce/immo-facile-52938185"
     },
     "bienici:immo-facile-54763190": {
       "first_seen": "2026-11-16T15:58:45.673950+00:00",
@@ -1096,12 +1090,6 @@
       "title": "Appartement  1 pièce(s) 18.83 m2 meublé",
       "url": "https://www.bienici.com/annonce/immo-facile-61492786"
     },
-    "bienici:immo-facile-61499175": {
-      "first_seen": "2026-11-16T15:58:45.673848+00:00",
-      "rent": 568.0,
-      "title": "STUDIO RUEIL MALMAISON - 1 pièce(s) - 14 m2 avec jardin privatif",
-      "url": "https://www.bienici.com/annonce/immo-facile-61499175"
-    },
     "bienici:immo-facile-61717115": {
       "first_seen": "2026-11-16T15:58:45.673719+00:00",
       "rent": 750.0,
@@ -1114,17 +1102,17 @@
       "title": "Maisons Alfort  Studio 16.56m2",
       "url": "https://www.bienici.com/annonce/immo-facile-61733871"
     },
+    "bienici:ladresse-1-adresse-12319113": {
+      "first_seen": "2026-11-17T00:09:18.418852+00:00",
+      "rent": 731.39,
+      "title": "Appartement Aubervilliers 1 pièce(s) 21.70 m2",
+      "url": "https://www.bienici.com/annonce/ladresse-1-adresse-12319113"
+    },
     "bienici:ladresse-1-adresse-13264379": {
       "first_seen": "2026-11-16T15:58:45.673925+00:00",
       "rent": 690.0,
       "title": "Appartement Courbevoie Studio meublé - 10.42 m2",
       "url": "https://www.bienici.com/annonce/ladresse-1-adresse-13264379"
-    },
-    "bienici:laforet-immo-facile-17364015": {
-      "first_seen": "2026-11-16T15:58:45.673633+00:00",
-      "rent": 683.0,
-      "title": "VAUGIRARD / RUE MARMONTEL",
-      "url": "https://www.bienici.com/annonce/laforet-immo-facile-17364015"
     },
     "bienici:laforet-immo-facile-21227965": {
       "first_seen": "2026-11-16T15:58:45.673740+00:00",
@@ -1168,6 +1156,12 @@
       "title": "Studio Neuilly Plaisance 17.62 m2",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-52991755"
     },
+    "bienici:laforet-immo-facile-53010902": {
+      "first_seen": "2026-11-17T00:09:21.993830+00:00",
+      "rent": 753.0,
+      "title": "Appartement Paris 1 pièce(s) 19.17 m2",
+      "url": "https://www.bienici.com/annonce/laforet-immo-facile-53010902"
+    },
     "bienici:laforet-immo-facile-53012859": {
       "first_seen": "2026-11-16T15:58:45.673726+00:00",
       "rent": 680.0,
@@ -1180,11 +1174,11 @@
       "title": "Appartement Saint Denis 1 pièce(s) 22.04 m2",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-53022837"
     },
-    "bienici:laforet-immo-facile-53022993": {
-      "first_seen": "2026-11-16T15:58:45.673635+00:00",
-      "rent": 732.0,
-      "title": "Appartement Paris 1 pièce(s) 16.47 m2",
-      "url": "https://www.bienici.com/annonce/laforet-immo-facile-53022993"
+    "bienici:mgc-ancien-SNI_0000_328515": {
+      "first_seen": "2026-11-17T00:09:20.692413+00:00",
+      "rent": 745.0,
+      "title": "Appartement T1",
+      "url": "https://www.bienici.com/annonce/mgc-ancien-SNI_0000_328515"
     },
     "bienici:nestenn-1-99939504129": {
       "first_seen": "2026-11-16T15:58:45.673884+00:00",

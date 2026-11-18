@@ -22,17 +22,17 @@
       "title": "À louer – T1 – 17m²",
       "url": "https://www.bienici.com/annonce/ag314948-550379408"
     },
-    "bienici:ag603630-552438911": {
-      "first_seen": "2026-11-16T15:58:45.673806+00:00",
-      "rent": 695.0,
-      "title": "Escale 1",
-      "url": "https://www.bienici.com/annonce/ag603630-552438911"
-    },
     "bienici:ag603844-544127297": {
       "first_seen": "2026-11-16T15:58:45.673861+00:00",
       "rent": 670.0,
       "title": "BONDY",
       "url": "https://www.bienici.com/annonce/ag603844-544127297"
+    },
+    "bienici:ag710929-560981585": {
+      "first_seen": "2026-11-18T23:03:55.828415+00:00",
+      "rent": 750.0,
+      "title": "Studio meublé bien agencé et calme, avec sa terrasse partagée",
+      "url": "https://www.bienici.com/annonce/ag710929-560981585"
     },
     "bienici:ag750135-543384125": {
       "first_seen": "2026-11-16T15:58:45.673866+00:00",
@@ -93,12 +93,6 @@
       "rent": 750.0,
       "title": "Paris",
       "url": "https://www.bienici.com/annonce/ag752345-558420389"
-    },
-    "bienici:ag752345-559896917": {
-      "first_seen": "2026-11-16T15:58:45.673645+00:00",
-      "rent": 798.0,
-      "title": "T1 non meublé - 22, Rue de la Commune de Paris, 93300, Aubervilliers, France",
-      "url": "https://www.bienici.com/annonce/ag752345-559896917"
     },
     "bienici:ag752352-558177665": {
       "first_seen": "2026-11-16T15:58:45.673722+00:00",
@@ -436,6 +430,12 @@
       "title": "Studio",
       "url": "https://www.bienici.com/annonce/ag912359-553790522"
     },
+    "bienici:ag912359-560981360": {
+      "first_seen": "2026-11-18T23:03:52.230852+00:00",
+      "rent": 630.0,
+      "title": "T1",
+      "url": "https://www.bienici.com/annonce/ag912359-560981360"
+    },
     "bienici:ag922137-557357345": {
       "first_seen": "2026-11-16T15:58:45.673749+00:00",
       "rent": 723.0,
@@ -706,6 +706,12 @@
       "title": "T1 — Stains",
       "url": "https://www.bienici.com/annonce/citya-immobilier-1030-GES70360096-229"
     },
+    "bienici:citya-immobilier-5051-GES31410035-220": {
+      "first_seen": "2026-11-18T23:03:51.001901+00:00",
+      "rent": 610.41,
+      "title": "T1 29.32 m² — Noisy-le-Grand",
+      "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES31410035-220"
+    },
     "bienici:citya-immobilier-5051-GES52860052-220": {
       "first_seen": "2026-11-16T15:58:45.673970+00:00",
       "rent": 745.0,
@@ -885,12 +891,6 @@
       "rent": 685.0,
       "title": "LE RAINCY F1 MEUBLE AVEC GOUT",
       "url": "https://www.bienici.com/annonce/hektor-agenceepoque-596"
-    },
-    "bienici:hektor-cbimmo-2740": {
-      "first_seen": "2026-11-16T15:58:45.673973+00:00",
-      "rent": 795.0,
-      "title": "CHAMPIGNY - QUARTIER LE MAROC",
-      "url": "https://www.bienici.com/annonce/hektor-cbimmo-2740"
     },
     "bienici:hektor-cmb-1372": {
       "first_seen": "2026-11-16T15:58:45.673968+00:00",
@@ -1192,6 +1192,12 @@
       "title": "Appartement à louer Clamart",
       "url": "https://www.bienici.com/annonce/netty-company35363kzj-appt-2591"
     },
+    "bienici:netty-company36905zuv-appt-13475": {
+      "first_seen": "2026-11-18T23:03:53.325672+00:00",
+      "rent": 680.0,
+      "title": "Appartement à louer Sceaux",
+      "url": "https://www.bienici.com/annonce/netty-company36905zuv-appt-13475"
+    },
     "bienici:netty-company36905zuv-appt-14856": {
       "first_seen": "2026-11-17T17:32:15.076918+00:00",
       "rent": 760.0,
@@ -1210,6 +1216,12 @@
       "title": "Appartement",
       "url": "https://www.bienici.com/annonce/netty-company51181gwz-appt-3814"
     },
+    "bienici:netty-company51692kel-appt-163641": {
+      "first_seen": "2026-11-18T23:03:56.978297+00:00",
+      "rent": 750.0,
+      "title": "Appartement à louer Saint-Maur-des-Fossés",
+      "url": "https://www.bienici.com/annonce/netty-company51692kel-appt-163641"
+    },
     "bienici:netty-company54028bva-appt-16599": {
       "first_seen": "2026-11-16T15:58:45.673863+00:00",
       "rent": 800.0,
@@ -1221,6 +1233,12 @@
       "rent": 800.0,
       "title": "T1-22.16m2-VITRY-SUR-SEINE",
       "url": "https://www.bienici.com/annonce/netty-company54028bva-appt-16956"
+    },
+    "bienici:netty-company54028bva-appt-2566": {
+      "first_seen": "2026-11-18T23:03:54.712295+00:00",
+      "rent": 700.0,
+      "title": "STUDIO - VITRY-SUR-SEINE - MEUBLE 31 M²",
+      "url": "https://www.bienici.com/annonce/netty-company54028bva-appt-2566"
     },
     "bienici:netty-cost92-appt-20269": {
       "first_seen": "2026-11-17T23:58:33.013319+00:00",

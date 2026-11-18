@@ -376,12 +376,6 @@
       "title": "Co-location à Villiers-sur-Marne (94350)",
       "url": "https://www.bienici.com/annonce/ag755239-548207288"
     },
-    "bienici:ag755239-554252582": {
-      "first_seen": "2026-11-17T00:09:16.108348+00:00",
-      "rent": 635.0,
-      "title": "Co-location à Orly (94310)",
-      "url": "https://www.bienici.com/annonce/ag755239-554252582"
-    },
     "bienici:ag755239-559166411": {
       "first_seen": "2026-11-16T15:58:45.673673+00:00",
       "rent": 610.0,
@@ -513,6 +507,12 @@
       "rent": 695.0,
       "title": "Studio loué meublé proche gare RER A à louer !",
       "url": "https://www.bienici.com/annonce/ag942551-553424720"
+    },
+    "bienici:apimo-5477188": {
+      "first_seen": "2026-11-18T16:28:18.547096+00:00",
+      "rent": 755.0,
+      "title": "Bail Location vide - Studio 18,50 m2 Paris 75015",
+      "url": "https://www.bienici.com/annonce/apimo-5477188"
     },
     "bienici:apimo-5606960": {
       "first_seen": "2026-11-17T17:32:12.786992+00:00",
@@ -856,6 +856,12 @@
       "title": "Studio 19.77m2 55 POUCHET",
       "url": "https://www.bienici.com/annonce/hektor-1_piic-immobilier-paris-1222"
     },
+    "bienici:hektor-CABINETGUERIN-1980": {
+      "first_seen": "2026-11-18T16:28:19.799565+00:00",
+      "rent": 800.0,
+      "title": "350 m RER JOINVILLE - Près bois VINCENNES -",
+      "url": "https://www.bienici.com/annonce/hektor-CABINETGUERIN-1980"
+    },
     "bienici:hektor-IMMODEUX2020-361": {
       "first_seen": "2026-11-16T15:58:45.673926+00:00",
       "rent": 750.0,
@@ -879,12 +885,6 @@
       "rent": 685.0,
       "title": "LE RAINCY F1 MEUBLE AVEC GOUT",
       "url": "https://www.bienici.com/annonce/hektor-agenceepoque-596"
-    },
-    "bienici:hektor-bkimmobilier11-955": {
-      "first_seen": "2026-11-16T15:58:45.673701+00:00",
-      "rent": 800.0,
-      "title": "Studio Romainville + Terrasse",
-      "url": "https://www.bienici.com/annonce/hektor-bkimmobilier11-955"
     },
     "bienici:hektor-cbimmo-2740": {
       "first_seen": "2026-11-16T15:58:45.673973+00:00",
@@ -970,6 +970,12 @@
       "title": "Studio au calme proche gare de Bécon !",
       "url": "https://www.bienici.com/annonce/hektor-lebihan-1812"
     },
+    "bienici:hektor-letudeducentre-455": {
+      "first_seen": "2026-11-18T16:28:16.083781+00:00",
+      "rent": 750.0,
+      "title": "Appartement F1 Ablon-sur-Seine",
+      "url": "https://www.bienici.com/annonce/hektor-letudeducentre-455"
+    },
     "bienici:hektor-sgi-g-gicquel-1160": {
       "first_seen": "2026-11-16T15:58:45.673842+00:00",
       "rent": 680.0,
@@ -1042,12 +1048,6 @@
       "title": "Appartement STAINS - Studio 19.04m2",
       "url": "https://www.bienici.com/annonce/immo-facile-43279231"
     },
-    "bienici:immo-facile-44206008": {
-      "first_seen": "2026-11-17T23:58:36.637854+00:00",
-      "rent": 790.0,
-      "title": "STUDIO CHATENAY MALABRY - 1 pièce(s) - 33.18 m2",
-      "url": "https://www.bienici.com/annonce/immo-facile-44206008"
-    },
     "bienici:immo-facile-54763190": {
       "first_seen": "2026-11-16T15:58:45.673950+00:00",
       "rent": 602.0,
@@ -1102,6 +1102,12 @@
       "title": "Appartement Courbevoie Studio meublé - 10.42 m2",
       "url": "https://www.bienici.com/annonce/ladresse-1-adresse-13264379"
     },
+    "bienici:laforet-immo-facile-17245533": {
+      "first_seen": "2026-11-18T16:28:17.361812+00:00",
+      "rent": 750.0,
+      "title": "PASSY- Studio meublé",
+      "url": "https://www.bienici.com/annonce/laforet-immo-facile-17245533"
+    },
     "bienici:laforet-immo-facile-21227965": {
       "first_seen": "2026-11-16T15:58:45.673740+00:00",
       "rent": 740.0,
@@ -1132,12 +1138,6 @@
       "title": "Appartement Chaville 1 pièce(s) 14.58 m2",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-52959463"
     },
-    "bienici:laforet-immo-facile-52980114": {
-      "first_seen": "2026-11-16T15:58:45.673803+00:00",
-      "rent": 730.0,
-      "title": "Appartement Stains 1 pièce(s) 24.30 m2",
-      "url": "https://www.bienici.com/annonce/laforet-immo-facile-52980114"
-    },
     "bienici:laforet-immo-facile-52991755": {
       "first_seen": "2026-11-16T15:58:45.673764+00:00",
       "rent": 750.0,
@@ -1149,12 +1149,6 @@
       "rent": 680.0,
       "title": "Studio Boulogne - Point du Jour",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-53012859"
-    },
-    "bienici:laforet-immo-facile-53022837": {
-      "first_seen": "2026-11-16T15:58:45.673652+00:00",
-      "rent": 720.0,
-      "title": "Appartement Saint Denis 1 pièce(s) 22.04 m2",
-      "url": "https://www.bienici.com/annonce/laforet-immo-facile-53022837"
     },
     "bienici:laforet-immo-facile-53027653": {
       "first_seen": "2026-11-17T17:32:17.407242+00:00",
@@ -1168,11 +1162,17 @@
       "title": "Appartement Livry Gargan 1 pièce(s) 20.50 m2",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-53030533"
     },
-    "bienici:mgc-ancien-SNI_0000_215524": {
-      "first_seen": "2026-11-17T23:58:30.299584+00:00",
-      "rent": 446.02,
+    "bienici:laforet-immo-facile-53031974": {
+      "first_seen": "2026-11-18T16:28:14.865348+00:00",
+      "rent": 730.0,
+      "title": "Appartement Stains 1 pièce(s) 24.30 m2",
+      "url": "https://www.bienici.com/annonce/laforet-immo-facile-53031974"
+    },
+    "bienici:mgc-ancien-602_0602_007193": {
+      "first_seen": "2026-11-18T16:28:13.649999+00:00",
+      "rent": 722.26,
       "title": "Appartement T1",
-      "url": "https://www.bienici.com/annonce/mgc-ancien-SNI_0000_215524"
+      "url": "https://www.bienici.com/annonce/mgc-ancien-602_0602_007193"
     },
     "bienici:nestenn-1-99939504129": {
       "first_seen": "2026-11-16T15:58:45.673884+00:00",
@@ -1203,6 +1203,12 @@
       "rent": 695.0,
       "title": "Appartement à louer Le Plessis-Robinson",
       "url": "https://www.bienici.com/annonce/netty-company36905zuv-appt-3681"
+    },
+    "bienici:netty-company51181gwz-appt-3814": {
+      "first_seen": "2026-11-18T16:28:12.440227+00:00",
+      "rent": 495.0,
+      "title": "Appartement",
+      "url": "https://www.bienici.com/annonce/netty-company51181gwz-appt-3814"
     },
     "bienici:netty-company54028bva-appt-16599": {
       "first_seen": "2026-11-16T15:58:45.673863+00:00",
@@ -1245,24 +1251,6 @@
       "rent": 790.0,
       "title": "CRETEIL UNIVERSITE - CHAMPEVAL - 4 STUDIOS A LOUER MEUBLéS AVEC",
       "url": "https://www.bienici.com/annonce/netty-instantimmo-appt-10745"
-    },
-    "bienici:netty-lereseauimmo-appt-3046": {
-      "first_seen": "2026-11-16T15:58:45.673697+00:00",
-      "rent": 717.0,
-      "title": "Appartement à louer Le Perreux-sur-Marne",
-      "url": "https://www.bienici.com/annonce/netty-lereseauimmo-appt-3046"
-    },
-    "bienici:netty-lereseauimmo-appt-3061": {
-      "first_seen": "2026-11-17T23:58:31.707989+00:00",
-      "rent": 613.0,
-      "title": "Appartement à louer Paris",
-      "url": "https://www.bienici.com/annonce/netty-lereseauimmo-appt-3061"
-    },
-    "bienici:netty-lereseauimmo-appt-3062": {
-      "first_seen": "2026-11-16T15:58:45.673628+00:00",
-      "rent": 717.0,
-      "title": "Appartement à louer Le Perreux-sur-Marne",
-      "url": "https://www.bienici.com/annonce/netty-lereseauimmo-appt-3062"
     },
     "bienici:netty-rueil-appt-3021": {
       "first_seen": "2026-11-16T15:58:45.673831+00:00",

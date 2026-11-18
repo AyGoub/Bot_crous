@@ -568,12 +568,6 @@
       "title": "SUCY EN BRIE - Grand studio de 36 m²",
       "url": "https://www.bienici.com/annonce/apimo-87438937"
     },
-    "bienici:apimo-87492665": {
-      "first_seen": "2026-11-16T15:58:45.673706+00:00",
-      "rent": 760.0,
-      "title": "STUDIO - PORTE D ORLEANS - MONTROUGE",
-      "url": "https://www.bienici.com/annonce/apimo-87492665"
-    },
     "bienici:apimo-87540579": {
       "first_seen": "2026-11-16T15:58:45.673712+00:00",
       "rent": 800.0,
@@ -622,6 +616,12 @@
       "title": "T1 15.3 m² — Le Kremlin-Bicêtre",
       "url": "https://www.bienici.com/annonce/century-21-202_2281_30909"
     },
+    "bienici:century-21-202_2281_30957": {
+      "first_seen": "2026-11-18T07:09:10.442824+00:00",
+      "rent": 680.0,
+      "title": "T1 17.7 m² — Vincennes",
+      "url": "https://www.bienici.com/annonce/century-21-202_2281_30957"
+    },
     "bienici:century-21-202_2772_7031": {
       "first_seen": "2026-11-16T15:58:45.673855+00:00",
       "rent": 535.0,
@@ -658,24 +658,6 @@
       "title": "T1 22.19 m² — Créteil",
       "url": "https://www.bienici.com/annonce/century-21-202_3095_10823"
     },
-    "bienici:century-21-202_3095_11030": {
-      "first_seen": "2026-11-16T15:58:45.673781+00:00",
-      "rent": 645.83,
-      "title": "T1 21.08 m² — Choisy-le-Roi",
-      "url": "https://www.bienici.com/annonce/century-21-202_3095_11030"
-    },
-    "bienici:century-21-202_3095_11077": {
-      "first_seen": "2026-11-16T15:58:45.673655+00:00",
-      "rent": 715.63,
-      "title": "T1 25.36 m² — Créteil",
-      "url": "https://www.bienici.com/annonce/century-21-202_3095_11077"
-    },
-    "bienici:century-21-202_3647_1112": {
-      "first_seen": "2026-11-16T15:58:45.673805+00:00",
-      "rent": 750.0,
-      "title": "T1 22.65 m² — Créteil",
-      "url": "https://www.bienici.com/annonce/century-21-202_3647_1112"
-    },
     "bienici:century-21-202_44_19554": {
       "first_seen": "2026-11-16T15:58:45.673841+00:00",
       "rent": 634.51,
@@ -693,6 +675,18 @@
       "rent": 750.0,
       "title": "T1 22.2 m² — Saint-Maur-des-Fossés",
       "url": "https://www.bienici.com/annonce/century-21-202_489_18018"
+    },
+    "bienici:century-21-202_727_14567": {
+      "first_seen": "2026-11-18T07:09:09.263091+00:00",
+      "rent": 595.0,
+      "title": "T1 16.4 m² — Ville-d'Avray",
+      "url": "https://www.bienici.com/annonce/century-21-202_727_14567"
+    },
+    "bienici:century-21-202_727_14981": {
+      "first_seen": "2026-11-18T07:09:11.636908+00:00",
+      "rent": 748.0,
+      "title": "Studio 19.68 m² — Suresnes",
+      "url": "https://www.bienici.com/annonce/century-21-202_727_14981"
     },
     "bienici:century-21-202_761_27818": {
       "first_seen": "2026-11-16T15:58:45.673760+00:00",
@@ -837,6 +831,12 @@
       "rent": 650.0,
       "title": "Studio à louer à Chaville - Rive Droite, Les Vignes, proche commodités",
       "url": "https://www.bienici.com/annonce/guy-hoquet-immo-facile-7818010"
+    },
+    "bienici:guy-hoquet-immo-facile-7832575": {
+      "first_seen": "2026-11-18T07:09:08.072329+00:00",
+      "rent": 550.0,
+      "title": "Appartement Paris 1 pièce(s) 10 m2",
+      "url": "https://www.bienici.com/annonce/guy-hoquet-immo-facile-7832575"
     },
     "bienici:hektor-1_3203-5709": {
       "first_seen": "2026-11-16T15:58:45.673770+00:00",

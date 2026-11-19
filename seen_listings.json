@@ -10,6 +10,12 @@
       "title": "A LOUER STUDIO MEUBLE ANTONY",
       "url": "https://www.bienici.com/annonce/ag135790-559151636"
     },
+    "bienici:ag210198-544153607": {
+      "first_seen": "2026-11-19T13:20:52.408520+00:00",
+      "rent": 675.0,
+      "title": "Appartement - 2ème étage - 30,75 m2 - 1 pièce - Non meublé",
+      "url": "https://www.bienici.com/annonce/ag210198-544153607"
+    },
     "bienici:ag313862-553823012": {
       "first_seen": "2026-11-16T15:58:45.673815+00:00",
       "rent": 770.0,
@@ -27,12 +33,6 @@
       "rent": 670.0,
       "title": "BONDY",
       "url": "https://www.bienici.com/annonce/ag603844-544127297"
-    },
-    "bienici:ag710929-560981585": {
-      "first_seen": "2026-11-18T23:03:55.828415+00:00",
-      "rent": 750.0,
-      "title": "Studio meublé bien agencé et calme, avec sa terrasse partagée",
-      "url": "https://www.bienici.com/annonce/ag710929-560981585"
     },
     "bienici:ag750135-543384125": {
       "first_seen": "2026-11-16T15:58:45.673866+00:00",
@@ -57,12 +57,6 @@
       "rent": 640.0,
       "title": "Studio / 16m² / Mairie d'Ivry (Ligne 7)",
       "url": "https://www.bienici.com/annonce/ag750135-560475524"
-    },
-    "bienici:ag751890-557893856": {
-      "first_seen": "2026-11-17T00:09:15.001707+00:00",
-      "rent": 617.0,
-      "title": "STUDIO - Croix Nivert",
-      "url": "https://www.bienici.com/annonce/ag751890-557893856"
     },
     "bienici:ag752345-553184693": {
       "first_seen": "2026-11-16T15:58:45.673823+00:00",
@@ -93,6 +87,12 @@
       "rent": 750.0,
       "title": "Paris",
       "url": "https://www.bienici.com/annonce/ag752345-558420389"
+    },
+    "bienici:ag752345-561118712": {
+      "first_seen": "2026-11-19T13:20:53.564338+00:00",
+      "rent": 714.0,
+      "title": "T1 non meublé - 45, Avenue de Choisy, 75013, Paris, France",
+      "url": "https://www.bienici.com/annonce/ag752345-561118712"
     },
     "bienici:ag752352-558177665": {
       "first_seen": "2026-11-16T15:58:45.673722+00:00",
@@ -274,6 +274,12 @@
       "title": "Studio meublé de 15 m2",
       "url": "https://www.bienici.com/annonce/ag753878-499406135"
     },
+    "bienici:ag754025-555375947": {
+      "first_seen": "2026-11-19T13:20:51.230767+00:00",
+      "rent": 650.0,
+      "title": "Studio",
+      "url": "https://www.bienici.com/annonce/ag754025-555375947"
+    },
     "bienici:ag754025-555864431": {
       "first_seen": "2026-11-17T07:57:01.270102+00:00",
       "rent": 659.0,
@@ -303,12 +309,6 @@
       "rent": 575.0,
       "title": "STUDIO",
       "url": "https://www.bienici.com/annonce/ag755211-559032362"
-    },
-    "bienici:ag755239-363759234": {
-      "first_seen": "2026-11-16T15:58:45.673961+00:00",
-      "rent": 580.0,
-      "title": "Co-location à Neuilly-sur-Marne (93330)",
-      "url": "https://www.bienici.com/annonce/ag755239-363759234"
     },
     "bienici:ag755239-367300182": {
       "first_seen": "2026-11-16T15:58:45.673959+00:00",
@@ -748,12 +748,6 @@
       "title": "Studio meublé - Quartier Trudaine",
       "url": "https://www.bienici.com/annonce/gedeon-29013520"
     },
-    "bienici:gedeon-33827986": {
-      "first_seen": "2026-11-16T15:58:45.673845+00:00",
-      "rent": 641.0,
-      "title": "T1 30 m² — Le Plessis-Trévise",
-      "url": "https://www.bienici.com/annonce/gedeon-33827986"
-    },
     "bienici:gedeon-33834648": {
       "first_seen": "2026-11-16T15:58:45.673844+00:00",
       "rent": 635.0,
@@ -850,12 +844,6 @@
       "title": "Studio de 25.20 m2 - avec jardin privatif + terrasse - LE RA",
       "url": "https://www.bienici.com/annonce/hektor-1_3203-6994"
     },
-    "bienici:hektor-1_piic-immobilier-paris-1222": {
-      "first_seen": "2026-11-16T15:58:45.673976+00:00",
-      "rent": 790.0,
-      "title": "Studio 19.77m2 55 POUCHET",
-      "url": "https://www.bienici.com/annonce/hektor-1_piic-immobilier-paris-1222"
-    },
     "bienici:hektor-CABINETGUERIN-1980": {
       "first_seen": "2026-11-18T16:28:19.799565+00:00",
       "rent": 800.0,
@@ -885,6 +873,12 @@
       "rent": 685.0,
       "title": "LE RAINCY F1 MEUBLE AVEC GOUT",
       "url": "https://www.bienici.com/annonce/hektor-agenceepoque-596"
+    },
+    "bienici:hektor-agenceepoque-602": {
+      "first_seen": "2026-11-19T13:20:50.092399+00:00",
+      "rent": 634.0,
+      "title": "Studio en location à Vitry-Sur-Seine",
+      "url": "https://www.bienici.com/annonce/hektor-agenceepoque-602"
     },
     "bienici:hektor-cmb-1372": {
       "first_seen": "2026-11-16T15:58:45.673968+00:00",
@@ -975,6 +969,12 @@
       "rent": 680.0,
       "title": "Studio rénové de 19.70 M2   Ormesson-sur-Marne",
       "url": "https://www.bienici.com/annonce/hektor-sgi-g-gicquel-1160"
+    },
+    "bienici:hektor-sgi-g-gicquel-1161": {
+      "first_seen": "2026-11-19T13:20:54.694426+00:00",
+      "rent": 760.0,
+      "title": "STUDIO DE 27.61 m2 - BOISSY ST LEGER",
+      "url": "https://www.bienici.com/annonce/hektor-sgi-g-gicquel-1161"
     },
     "bienici:hektor-sgi-g-gicquel-1169": {
       "first_seen": "2026-11-17T00:09:17.286704+00:00",
@@ -1227,6 +1227,12 @@
       "rent": 800.0,
       "title": "T1-22.16m2-VITRY-SUR-SEINE",
       "url": "https://www.bienici.com/annonce/netty-company54028bva-appt-16956"
+    },
+    "bienici:netty-company54028bva-appt-2478": {
+      "first_seen": "2026-11-19T13:20:55.859280+00:00",
+      "rent": 784.0,
+      "title": "Appartement T1 de 25m² - CACHAN",
+      "url": "https://www.bienici.com/annonce/netty-company54028bva-appt-2478"
     },
     "bienici:netty-company54028bva-appt-2566": {
       "first_seen": "2026-11-18T23:03:54.712295+00:00",

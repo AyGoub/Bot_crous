@@ -16,12 +16,6 @@
       "title": "Appartement - 2ème étage - 30,75 m2 - 1 pièce - Non meublé",
       "url": "https://www.bienici.com/annonce/ag210198-544153607"
     },
-    "bienici:ag313862-553823012": {
-      "first_seen": "2026-11-16T15:58:45.673815+00:00",
-      "rent": 770.0,
-      "title": "Studio",
-      "url": "https://www.bienici.com/annonce/ag313862-553823012"
-    },
     "bienici:ag314948-550379408": {
       "first_seen": "2026-11-16T15:58:45.673750+00:00",
       "rent": 690.0,
@@ -280,6 +274,12 @@
       "title": "Studio meublé de 15 m2",
       "url": "https://www.bienici.com/annonce/ag753878-499406135"
     },
+    "bienici:ag754025-555375947": {
+      "first_seen": "2026-11-20T02:40:05.521094+00:00",
+      "rent": 650.0,
+      "title": "Studio",
+      "url": "https://www.bienici.com/annonce/ag754025-555375947"
+    },
     "bienici:ag754025-555864431": {
       "first_seen": "2026-11-17T07:57:01.270102+00:00",
       "rent": 659.0,
@@ -502,6 +502,12 @@
       "title": "Appartement 1 pièces",
       "url": "https://www.bienici.com/annonce/ag942076-560698640"
     },
+    "bienici:ag942076-561295862": {
+      "first_seen": "2026-11-20T02:40:08.044250+00:00",
+      "rent": 725.0,
+      "title": "Appartement 1 pièces",
+      "url": "https://www.bienici.com/annonce/ag942076-561295862"
+    },
     "bienici:ag942110-398414587": {
       "first_seen": "2026-11-16T15:58:45.673954+00:00",
       "rent": 646.0,
@@ -519,18 +525,6 @@
       "rent": 695.0,
       "title": "Studio loué meublé proche gare RER A à louer !",
       "url": "https://www.bienici.com/annonce/ag942551-553424720"
-    },
-    "bienici:apimo-5477188": {
-      "first_seen": "2026-11-18T16:28:18.547096+00:00",
-      "rent": 755.0,
-      "title": "Bail Location vide - Studio 18,50 m2 Paris 75015",
-      "url": "https://www.bienici.com/annonce/apimo-5477188"
-    },
-    "bienici:apimo-5606960": {
-      "first_seen": "2026-11-17T17:32:12.786992+00:00",
-      "rent": 733.28,
-      "title": "Studio à Sceaux - 2 min à pieds du RER",
-      "url": "https://www.bienici.com/annonce/apimo-5606960"
     },
     "bienici:apimo-83057013": {
       "first_seen": "2026-11-16T15:58:45.673653+00:00",
@@ -579,12 +573,6 @@
       "rent": 750.0,
       "title": "SUCY EN BRIE - Grand studio de 36 m²",
       "url": "https://www.bienici.com/annonce/apimo-87438937"
-    },
-    "bienici:apimo-87499939": {
-      "first_seen": "2026-11-19T21:43:31.480009+00:00",
-      "rent": 680.0,
-      "title": "STUDIO MEUBLE - AVENUE DAUMESNIL - PARFAIT ETAT",
-      "url": "https://www.bienici.com/annonce/apimo-87499939"
     },
     "bienici:apimo-87540579": {
       "first_seen": "2026-11-16T15:58:45.673712+00:00",
@@ -675,6 +663,12 @@
       "rent": 695.0,
       "title": "T1 22.19 m² — Créteil",
       "url": "https://www.bienici.com/annonce/century-21-202_3095_10823"
+    },
+    "bienici:century-21-202_3219_10269": {
+      "first_seen": "2026-11-20T02:40:06.761365+00:00",
+      "rent": 652.13,
+      "title": "T1 9.16 m² — Alfortville",
+      "url": "https://www.bienici.com/annonce/century-21-202_3219_10269"
     },
     "bienici:century-21-202_44_19554": {
       "first_seen": "2026-11-16T15:58:45.673841+00:00",

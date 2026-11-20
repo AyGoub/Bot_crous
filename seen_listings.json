@@ -52,17 +52,17 @@
       "title": "Studio / 16m² / Mairie d'Ivry (Ligne 7)",
       "url": "https://www.bienici.com/annonce/ag750135-560475524"
     },
+    "bienici:ag750135-561501896": {
+      "first_seen": "2026-11-20T18:51:25.443938+00:00",
+      "rent": 800.0,
+      "title": "Studio / 25m² / Champigny (RER A)",
+      "url": "https://www.bienici.com/annonce/ag750135-561501896"
+    },
     "bienici:ag752345-555179819": {
       "first_seen": "2026-11-16T15:58:45.673796+00:00",
       "rent": 790.0,
       "title": "Paris",
       "url": "https://www.bienici.com/annonce/ag752345-555179819"
-    },
-    "bienici:ag752345-555179936": {
-      "first_seen": "2026-11-16T15:58:45.673794+00:00",
-      "rent": 738.85,
-      "title": "Rosny-sous-Bois",
-      "url": "https://www.bienici.com/annonce/ag752345-555179936"
     },
     "bienici:ag752345-556282274": {
       "first_seen": "2026-11-16T15:58:45.673774+00:00",
@@ -75,12 +75,6 @@
       "rent": 750.0,
       "title": "Paris",
       "url": "https://www.bienici.com/annonce/ag752345-558420389"
-    },
-    "bienici:ag752345-561118712": {
-      "first_seen": "2026-11-19T13:20:53.564338+00:00",
-      "rent": 714.0,
-      "title": "T1 non meublé - 45, Avenue de Choisy, 75013, Paris, France",
-      "url": "https://www.bienici.com/annonce/ag752345-561118712"
     },
     "bienici:ag752345-561265100": {
       "first_seen": "2026-11-19T21:43:32.767792+00:00",
@@ -454,6 +448,12 @@
       "title": "Studio à Louer sur Saint-Denis",
       "url": "https://www.bienici.com/annonce/ag922145-439623122"
     },
+    "bienici:ag922875-561510884": {
+      "first_seen": "2026-11-20T18:51:24.250859+00:00",
+      "rent": 790.0,
+      "title": "T1",
+      "url": "https://www.bienici.com/annonce/ag922875-561510884"
+    },
     "bienici:ag933506-558974501": {
       "first_seen": "2026-11-16T15:58:45.673695+00:00",
       "rent": 780.0,
@@ -537,12 +537,6 @@
       "rent": 650.0,
       "title": "VITRY SUR SEINE RER C",
       "url": "https://www.bienici.com/annonce/apimo-87321183"
-    },
-    "bienici:apimo-87331176": {
-      "first_seen": "2026-11-16T15:58:45.673809+00:00",
-      "rent": 725.0,
-      "title": "STUDIO Meublé 16,66 m²",
-      "url": "https://www.bienici.com/annonce/apimo-87331176"
     },
     "bienici:apimo-87403346": {
       "first_seen": "2026-11-16T15:58:45.673829+00:00",
@@ -712,6 +706,12 @@
       "title": "T1 29.32 m² — Noisy-le-Grand",
       "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES31410035-220"
     },
+    "bienici:citya-immobilier-5051-GES31920022-220": {
+      "first_seen": "2026-11-20T18:51:21.807203+00:00",
+      "rent": 742.45,
+      "title": "T1 33.6 m² — Noisy-le-Grand",
+      "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES31920022-220"
+    },
     "bienici:citya-immobilier-5051-GES52860052-220": {
       "first_seen": "2026-11-16T15:58:45.673970+00:00",
       "rent": 745.0,
@@ -723,6 +723,12 @@
       "rent": 774.79,
       "title": "T1 26.06 m² — Le Perreux-sur-Marne",
       "url": "https://www.bienici.com/annonce/citya-immobilier-5054-GES11780012-208"
+    },
+    "bienici:dauchez-31162": {
+      "first_seen": "2026-11-20T18:51:20.623012+00:00",
+      "rent": 717.0,
+      "title": "Appartement 1 pièce 92140",
+      "url": "https://www.bienici.com/annonce/dauchez-31162"
     },
     "bienici:dauchez-32750": {
       "first_seen": "2026-11-16T15:58:45.673964+00:00",
@@ -795,12 +801,6 @@
       "rent": 744.0,
       "title": "Charmant studio de 31 m² en dernier étage à Bagnolet",
       "url": "https://www.bienici.com/annonce/guy-hoquet-18-GT0191-1861"
-    },
-    "bienici:guy-hoquet-18-GT0335-36-38": {
-      "first_seen": "2026-11-16T15:58:45.673680+00:00",
-      "rent": 790.0,
-      "title": "Appartement à louer de 1 pièce de 24.2 m²",
-      "url": "https://www.bienici.com/annonce/guy-hoquet-18-GT0335-36-38"
     },
     "bienici:guy-hoquet-18-GT0423-8326": {
       "first_seen": "2026-11-16T15:58:45.673643+00:00",
@@ -1042,6 +1042,12 @@
       "title": "Appartement Le Blanc Mesnil 1 pièce 31 m2",
       "url": "https://www.bienici.com/annonce/immo-facile-58157328"
     },
+    "bienici:immo-facile-59209196": {
+      "first_seen": "2026-11-20T18:51:23.023370+00:00",
+      "rent": 748.0,
+      "title": "Appartement Paris 1 pièce(s) 15.41 m2",
+      "url": "https://www.bienici.com/annonce/immo-facile-59209196"
+    },
     "bienici:immo-facile-59982301": {
       "first_seen": "2026-11-16T15:58:45.673836+00:00",
       "rent": 675.0,
@@ -1125,6 +1131,12 @@
       "rent": 800.0,
       "title": "Appartement Le Plessis-Trévise 1 pièce 31.35 m2",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-53027653"
+    },
+    "bienici:laforet-immo-facile-53030533": {
+      "first_seen": "2026-11-20T18:51:19.397110+00:00",
+      "rent": 650.0,
+      "title": "Appartement Livry Gargan 1 pièce(s) 20.50 m2",
+      "url": "https://www.bienici.com/annonce/laforet-immo-facile-53030533"
     },
     "bienici:laforet-immo-facile-53031974": {
       "first_seen": "2026-11-18T16:28:14.865348+00:00",

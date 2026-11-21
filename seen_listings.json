@@ -58,6 +58,12 @@
       "title": "Studio / 25m² / Champigny (RER A)",
       "url": "https://www.bienici.com/annonce/ag750135-561501896"
     },
+    "bienici:ag750940-561575675": {
+      "first_seen": "2026-11-21T00:40:45.626008+00:00",
+      "rent": 650.0,
+      "title": "Studette FNAC des TERNES/ETOILE",
+      "url": "https://www.bienici.com/annonce/ag750940-561575675"
+    },
     "bienici:ag752345-555179819": {
       "first_seen": "2026-11-16T15:58:45.673796+00:00",
       "rent": 790.0,
@@ -88,12 +94,6 @@
       "title": "Appartement studio à PARIS 15ème",
       "url": "https://www.bienici.com/annonce/ag752352-558177665"
     },
-    "bienici:ag752352-560551214": {
-      "first_seen": "2026-11-17T00:09:23.316475+00:00",
-      "rent": 799.0,
-      "title": "Appartement studio à PARIS 10ème",
-      "url": "https://www.bienici.com/annonce/ag752352-560551214"
-    },
     "bienici:ag752352-560551229": {
       "first_seen": "2026-11-17T00:09:13.872868+00:00",
       "rent": 541.0,
@@ -105,6 +105,12 @@
       "rent": 776.0,
       "title": "Appartement studio à PARIS 11ème",
       "url": "https://www.bienici.com/annonce/ag752352-561276560"
+    },
+    "bienici:ag752352-561592025": {
+      "first_seen": "2026-11-21T00:40:44.342560+00:00",
+      "rent": 457.0,
+      "title": "Appartement studio à PIERREFITTE SUR SEINE",
+      "url": "https://www.bienici.com/annonce/ag752352-561592025"
     },
     "bienici:ag752485-554905364": {
       "first_seen": "2026-11-16T15:58:45.673799+00:00",
@@ -700,12 +706,6 @@
       "title": "T1 — Stains",
       "url": "https://www.bienici.com/annonce/citya-immobilier-1030-GES70360096-229"
     },
-    "bienici:citya-immobilier-5051-GES31410035-220": {
-      "first_seen": "2026-11-18T23:03:51.001901+00:00",
-      "rent": 610.41,
-      "title": "T1 29.32 m² — Noisy-le-Grand",
-      "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES31410035-220"
-    },
     "bienici:citya-immobilier-5051-GES31920022-220": {
       "first_seen": "2026-11-20T18:51:21.807203+00:00",
       "rent": 742.45,
@@ -1000,6 +1000,12 @@
       "title": "Location Studio 1 pièce",
       "url": "https://www.bienici.com/annonce/iad-france-2161763"
     },
+    "bienici:iad-france-2163012": {
+      "first_seen": "2026-11-21T00:40:49.215398+00:00",
+      "rent": 790.0,
+      "title": "Location Appartement 1 pièce",
+      "url": "https://www.bienici.com/annonce/iad-france-2163012"
+    },
     "bienici:ifsp6a-4973724": {
       "first_seen": "2026-11-16T15:58:45.673785+00:00",
       "rent": 770.0,
@@ -1042,12 +1048,6 @@
       "title": "Appartement Le Blanc Mesnil 1 pièce 31 m2",
       "url": "https://www.bienici.com/annonce/immo-facile-58157328"
     },
-    "bienici:immo-facile-59209196": {
-      "first_seen": "2026-11-20T18:51:23.023370+00:00",
-      "rent": 748.0,
-      "title": "Appartement Paris 1 pièce(s) 15.41 m2",
-      "url": "https://www.bienici.com/annonce/immo-facile-59209196"
-    },
     "bienici:immo-facile-59982301": {
       "first_seen": "2026-11-16T15:58:45.673836+00:00",
       "rent": 675.0,
@@ -1077,6 +1077,12 @@
       "rent": 680.0,
       "title": "Maisons Alfort  Studio 16.56m2",
       "url": "https://www.bienici.com/annonce/immo-facile-61733871"
+    },
+    "bienici:immo-facile-61760994": {
+      "first_seen": "2026-11-21T00:40:48.019502+00:00",
+      "rent": 750.0,
+      "title": "Ivry S/S, Studio 15m² meublé, aux portes de Paris",
+      "url": "https://www.bienici.com/annonce/immo-facile-61760994"
     },
     "bienici:ladresse-1-adresse-12319113": {
       "first_seen": "2026-11-17T00:09:18.418852+00:00",
@@ -1113,6 +1119,12 @@
       "rent": 580.0,
       "title": "Appartement Chaville 1 pièce(s) 14.58 m2",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-52959463"
+    },
+    "bienici:laforet-immo-facile-52980114": {
+      "first_seen": "2026-11-21T00:40:46.852407+00:00",
+      "rent": 730.0,
+      "title": "Appartement Stains 1 pièce(s) 24.30 m2",
+      "url": "https://www.bienici.com/annonce/laforet-immo-facile-52980114"
     },
     "bienici:laforet-immo-facile-52991755": {
       "first_seen": "2026-11-16T15:58:45.673764+00:00",

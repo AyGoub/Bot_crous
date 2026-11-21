@@ -268,6 +268,12 @@
       "title": "Studio",
       "url": "https://www.bienici.com/annonce/ag753644-557405909"
     },
+    "bienici:ag753737-561772625": {
+      "first_seen": "2026-11-21T21:13:14.900564+00:00",
+      "rent": 718.0,
+      "title": "Appartement 2 pièces (75012) Michel Bizot - CALME - BON ETA",
+      "url": "https://www.bienici.com/annonce/ag753737-561772625"
+    },
     "bienici:ag753878-499406135": {
       "first_seen": "2026-11-16T15:58:45.673903+00:00",
       "rent": 757.0,
@@ -460,11 +466,11 @@
       "title": "F1 meublé I Livry-Gargan",
       "url": "https://www.bienici.com/annonce/ag933506-558974501"
     },
-    "bienici:ag933582-561034010": {
-      "first_seen": "2026-11-19T04:12:37.677938+00:00",
+    "bienici:ag933582-561756512": {
+      "first_seen": "2026-11-21T21:13:16.093113+00:00",
       "rent": 720.0,
       "title": "LIVRY-GARGAN 93190 Appartement Studio F1 T1 Tramway T4  (Hen",
-      "url": "https://www.bienici.com/annonce/ag933582-561034010"
+      "url": "https://www.bienici.com/annonce/ag933582-561756512"
     },
     "bienici:ag941672-553093277": {
       "first_seen": "2026-11-16T15:58:45.673826+00:00",
@@ -513,6 +519,12 @@
       "rent": 695.0,
       "title": "Studio loué meublé proche gare RER A à louer !",
       "url": "https://www.bienici.com/annonce/ag942551-553424720"
+    },
+    "bienici:ag942551-561746732": {
+      "first_seen": "2026-11-21T21:13:13.512798+00:00",
+      "rent": 650.0,
+      "title": "Appartement Villiers Sur Marne 1 pièce(s) 24.61 m2",
+      "url": "https://www.bienici.com/annonce/ag942551-561746732"
     },
     "bienici:apimo-83057013": {
       "first_seen": "2026-11-16T15:58:45.673653+00:00",
@@ -699,12 +711,6 @@
       "rent": 780.0,
       "title": "T1 — Stains",
       "url": "https://www.bienici.com/annonce/citya-immobilier-1030-GES70360096-229"
-    },
-    "bienici:citya-immobilier-5051-GES31920022-220": {
-      "first_seen": "2026-11-20T18:51:21.807203+00:00",
-      "rent": 742.45,
-      "title": "T1 33.6 m² — Noisy-le-Grand",
-      "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES31920022-220"
     },
     "bienici:citya-immobilier-5051-GES52860052-220": {
       "first_seen": "2026-11-16T15:58:45.673970+00:00",
@@ -921,12 +927,6 @@
       "rent": 800.0,
       "title": "INVESTISSEMENT A LEVALLOIS",
       "url": "https://www.bienici.com/annonce/hektor-lagenceparisienne-2248"
-    },
-    "bienici:hektor-lebihan-1812": {
-      "first_seen": "2026-11-16T15:58:45.673977+00:00",
-      "rent": 700.0,
-      "title": "Studio au calme proche gare de Bécon !",
-      "url": "https://www.bienici.com/annonce/hektor-lebihan-1812"
     },
     "bienici:hektor-letudeducentre-455": {
       "first_seen": "2026-11-18T16:28:16.083781+00:00",

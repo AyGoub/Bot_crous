@@ -502,6 +502,12 @@
       "title": "Appartement 1 pièces",
       "url": "https://www.bienici.com/annonce/ag942076-561295862"
     },
+    "bienici:ag942076-561827075": {
+      "first_seen": "2026-11-22T01:24:43.962592+00:00",
+      "rent": 745.0,
+      "title": "Appartement 1 pièces",
+      "url": "https://www.bienici.com/annonce/ag942076-561827075"
+    },
     "bienici:ag942110-398414587": {
       "first_seen": "2026-11-16T15:58:45.673954+00:00",
       "rent": 646.0,
@@ -645,6 +651,12 @@
       "rent": 615.0,
       "title": "Studio 18 m² — Noisy-le-Grand",
       "url": "https://www.bienici.com/annonce/century-21-202_3040_15251"
+    },
+    "bienici:century-21-202_3040_15329": {
+      "first_seen": "2026-11-22T01:24:45.180208+00:00",
+      "rent": 751.0,
+      "title": "T1 27 m² — Noisy-le-Grand",
+      "url": "https://www.bienici.com/annonce/century-21-202_3040_15329"
     },
     "bienici:century-21-202_3095_10821": {
       "first_seen": "2026-11-16T15:58:45.673893+00:00",

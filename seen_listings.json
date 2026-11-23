@@ -88,6 +88,12 @@
       "title": "T1 meublé - 6, Rue Doudeauville, 75018, Paris, France",
       "url": "https://www.bienici.com/annonce/ag752345-561265100"
     },
+    "bienici:ag752345-562137863": {
+      "first_seen": "2026-11-23T11:57:51.884407+00:00",
+      "rent": 680.68,
+      "title": "Porte de Bagnolet",
+      "url": "https://www.bienici.com/annonce/ag752345-562137863"
+    },
     "bienici:ag752352-558177665": {
       "first_seen": "2026-11-16T15:58:45.673722+00:00",
       "rent": 775.0,
@@ -268,17 +274,11 @@
       "title": "Studio",
       "url": "https://www.bienici.com/annonce/ag753644-557405909"
     },
-    "bienici:ag753737-561772625": {
-      "first_seen": "2026-11-21T21:13:14.900564+00:00",
-      "rent": 718.0,
-      "title": "Appartement 2 pièces (75012) Michel Bizot - CALME - BON ETA",
-      "url": "https://www.bienici.com/annonce/ag753737-561772625"
-    },
-    "bienici:ag753878-499406135": {
-      "first_seen": "2026-11-16T15:58:45.673903+00:00",
+    "bienici:ag753878-562116275": {
+      "first_seen": "2026-11-23T11:57:56.448003+00:00",
       "rent": 757.0,
       "title": "Studio meublé de 15 m2",
-      "url": "https://www.bienici.com/annonce/ag753878-499406135"
+      "url": "https://www.bienici.com/annonce/ag753878-562116275"
     },
     "bienici:ag754025-555375947": {
       "first_seen": "2026-11-20T02:40:05.521094+00:00",
@@ -406,6 +406,24 @@
       "title": "Co-location à Villiers-sur-Marne (94350)",
       "url": "https://www.bienici.com/annonce/ag755239-560458883"
     },
+    "bienici:ag755239-561573974": {
+      "first_seen": "2026-11-23T11:57:53.002237+00:00",
+      "rent": 730.0,
+      "title": "Co-location à La Courneuve (93120)",
+      "url": "https://www.bienici.com/annonce/ag755239-561573974"
+    },
+    "bienici:ag755239-562142054": {
+      "first_seen": "2026-11-23T11:57:54.173122+00:00",
+      "rent": 730.0,
+      "title": "Co-location à La Courneuve (93120)",
+      "url": "https://www.bienici.com/annonce/ag755239-562142054"
+    },
+    "bienici:ag755239-562142084": {
+      "first_seen": "2026-11-23T11:57:55.330533+00:00",
+      "rent": 730.0,
+      "title": "Co-location à La Courneuve (93120)",
+      "url": "https://www.bienici.com/annonce/ag755239-562142084"
+    },
     "bienici:ag756444-514580714": {
       "first_seen": "2026-11-16T15:58:45.673890+00:00",
       "rent": 735.0,
@@ -423,6 +441,12 @@
       "rent": 730.0,
       "title": "Appartement studio \"JLN\"",
       "url": "https://www.bienici.com/annonce/ag773640-542089460"
+    },
+    "bienici:ag911713-552700757": {
+      "first_seen": "2026-11-23T11:57:48.420819+00:00",
+      "rent": 527.0,
+      "title": "À LOUER - Studio meublé - 9 m² - Paris - Secteur Champs-?",
+      "url": "https://www.bienici.com/annonce/ag911713-552700757"
     },
     "bienici:ag912359-553790522": {
       "first_seen": "2026-11-16T15:58:45.673816+00:00",
@@ -802,6 +826,18 @@
       "title": "Location studio Bois-Colombes",
       "url": "https://www.bienici.com/annonce/gedeon-34201516"
     },
+    "bienici:gedeon-34253960": {
+      "first_seen": "2026-11-23T11:57:50.718986+00:00",
+      "rent": 658.0,
+      "title": "SEVRAN - LES TREFLES - F1 dans petit immeuble avec parking",
+      "url": "https://www.bienici.com/annonce/gedeon-34253960"
+    },
+    "bienici:gedeon-34254060": {
+      "first_seen": "2026-11-23T11:57:57.568098+00:00",
+      "rent": 779.0,
+      "title": "AULNAY-SOUS-BOIS - F1 MEUBLÉ DANS RESIDENCE STANDING",
+      "url": "https://www.bienici.com/annonce/gedeon-34254060"
+    },
     "bienici:guy-hoquet-18-GT0191-1861": {
       "first_seen": "2026-11-16T15:58:45.673707+00:00",
       "rent": 744.0,
@@ -850,6 +886,12 @@
       "title": "STUDIO  MODERNE MEUBLÉ REFAIT A NEUF - accès sécurisé et san",
       "url": "https://www.bienici.com/annonce/hektor-IMMODEUX2020-361"
     },
+    "bienici:hektor-agbatignolles-7691": {
+      "first_seen": "2026-11-23T11:57:47.274939+00:00",
+      "rent": 494.0,
+      "title": "Appartement - studio de 14m2",
+      "url": "https://www.bienici.com/annonce/hektor-agbatignolles-7691"
+    },
     "bienici:hektor-agence-centrale-de-choisy-1700": {
       "first_seen": "2026-11-17T17:32:13.946653+00:00",
       "rent": 757.83,
@@ -879,6 +921,12 @@
       "rent": 699.0,
       "title": "Studio loué meublé rue Truffaut PARIS 17EME",
       "url": "https://www.bienici.com/annonce/hektor-cmb-1372"
+    },
+    "bienici:hektor-cmb-7852": {
+      "first_seen": "2026-11-23T11:57:49.539634+00:00",
+      "rent": 598.0,
+      "title": "Studio loué vide Rue du Pré Saint Gervais à PANTIN",
+      "url": "https://www.bienici.com/annonce/hektor-cmb-7852"
     },
     "bienici:hektor-csmvaleurope-265": {
       "first_seen": "2026-11-16T15:58:45.673677+00:00",
@@ -1024,6 +1072,12 @@
       "title": "Appartement STAINS - Studio 19.04m2",
       "url": "https://www.bienici.com/annonce/immo-facile-43279231"
     },
+    "bienici:immo-facile-51748669": {
+      "first_seen": "2026-11-23T11:57:59.392345+00:00",
+      "rent": 793.0,
+      "title": "APPARTEMENT DE TYPE STUDIO - CLICHY",
+      "url": "https://www.bienici.com/annonce/immo-facile-51748669"
+    },
     "bienici:immo-facile-54763190": {
       "first_seen": "2026-11-16T15:58:45.673950+00:00",
       "rent": 602.0,
@@ -1107,12 +1161,6 @@
       "rent": 730.0,
       "title": "Appartement Stains 1 pièce(s) 24.30 m2",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-52980114"
-    },
-    "bienici:laforet-immo-facile-52991755": {
-      "first_seen": "2026-11-16T15:58:45.673764+00:00",
-      "rent": 750.0,
-      "title": "Studio Neuilly Plaisance 17.62 m2",
-      "url": "https://www.bienici.com/annonce/laforet-immo-facile-52991755"
     },
     "bienici:laforet-immo-facile-53012859": {
       "first_seen": "2026-11-16T15:58:45.673726+00:00",
@@ -1233,12 +1281,6 @@
       "rent": 790.0,
       "title": "STUDIO RUEIL-MALMAISON PLAINE GARE PROCHE GARES RER RUEIL ET NAN",
       "url": "https://www.bienici.com/annonce/netty-rueil-appt-3021"
-    },
-    "bienici:nockee-prop_ad_0351nfTQ1ognm0eyeRXnGc": {
-      "first_seen": "2026-11-22T08:35:36.799376+00:00",
-      "rent": 600.0,
-      "title": "Votre cocon dans ce superbe studio baigné de soleil et au calme absolu !",
-      "url": "https://www.bienici.com/annonce/nockee-prop_ad_0351nfTQ1ognm0eyeRXnGc"
     }
   }
 }

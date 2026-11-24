@@ -454,6 +454,12 @@
       "title": "Appartement À Louer",
       "url": "https://www.bienici.com/annonce/ag756444-514580714"
     },
+    "bienici:ag756576-562293728": {
+      "first_seen": "2026-11-24T08:56:59.352478+00:00",
+      "rent": 689.0,
+      "title": "Appartement Paris 1 pièce(s)",
+      "url": "https://www.bienici.com/annonce/ag756576-562293728"
+    },
     "bienici:ag771667-551364308": {
       "first_seen": "2026-11-16T15:58:45.673838+00:00",
       "rent": 800.0,
@@ -574,6 +580,12 @@
       "title": "Appartement Villiers Sur Marne 1 pièce(s) 24.61 m2",
       "url": "https://www.bienici.com/annonce/ag942551-561746732"
     },
+    "bienici:apimo-3623296": {
+      "first_seen": "2026-11-24T08:56:58.175814+00:00",
+      "rent": 578.0,
+      "title": "16ème Porte Auteuil, studette meublée",
+      "url": "https://www.bienici.com/annonce/apimo-3623296"
+    },
     "bienici:apimo-83057013": {
       "first_seen": "2026-11-16T15:58:45.673653+00:00",
       "rent": 730.0,
@@ -664,12 +676,6 @@
       "title": "Studio 21.47 m² — Gennevilliers",
       "url": "https://www.bienici.com/annonce/century-21-202_1113_27899"
     },
-    "bienici:century-21-202_1121_26040": {
-      "first_seen": "2026-11-16T15:58:45.673682+00:00",
-      "rent": 796.0,
-      "title": "Studio 32.08 m² — Saint-Maur-des-Fossés",
-      "url": "https://www.bienici.com/annonce/century-21-202_1121_26040"
-    },
     "bienici:century-21-202_2281_30909": {
       "first_seen": "2026-11-16T15:58:45.673765+00:00",
       "rent": 613.0,
@@ -753,12 +759,6 @@
       "rent": 595.0,
       "title": "T1 16.4 m² — Ville-d'Avray",
       "url": "https://www.bienici.com/annonce/century-21-202_727_14567"
-    },
-    "bienici:century-21-202_727_14981": {
-      "first_seen": "2026-11-18T07:09:11.636908+00:00",
-      "rent": 748.0,
-      "title": "Studio 19.68 m² — Suresnes",
-      "url": "https://www.bienici.com/annonce/century-21-202_727_14981"
     },
     "bienici:century-21-202_761_27818": {
       "first_seen": "2026-11-16T15:58:45.673760+00:00",
@@ -880,6 +880,12 @@
       "title": "T1 de 25,89 m² en rez-de-chaussée",
       "url": "https://www.bienici.com/annonce/gedeon-34254615"
     },
+    "bienici:gedeon-34259353": {
+      "first_seen": "2026-11-24T08:57:00.582791+00:00",
+      "rent": 756.0,
+      "title": "Studio Courbevoie",
+      "url": "https://www.bienici.com/annonce/gedeon-34259353"
+    },
     "bienici:guy-hoquet-18-GT0191-1861": {
       "first_seen": "2026-11-16T15:58:45.673707+00:00",
       "rent": 744.0,
@@ -927,12 +933,6 @@
       "rent": 750.0,
       "title": "STUDIO  MODERNE MEUBLÉ REFAIT A NEUF - accès sécurisé et san",
       "url": "https://www.bienici.com/annonce/hektor-IMMODEUX2020-361"
-    },
-    "bienici:hektor-agbatignolles-7691": {
-      "first_seen": "2026-11-23T11:57:47.274939+00:00",
-      "rent": 494.0,
-      "title": "Appartement - studio de 14m2",
-      "url": "https://www.bienici.com/annonce/hektor-agbatignolles-7691"
     },
     "bienici:hektor-agence-centrale-de-choisy-1700": {
       "first_seen": "2026-11-17T17:32:13.946653+00:00",

@@ -113,12 +113,6 @@
       "title": "Studette FNAC des TERNES/ETOILE",
       "url": "https://www.bienici.com/annonce/ag750940-561575675"
     },
-    "bienici:ag752345-555179819": {
-      "first_seen": "2026-11-16T15:58:45.673796+00:00",
-      "rent": 790.0,
-      "title": "Paris",
-      "url": "https://www.bienici.com/annonce/ag752345-555179819"
-    },
     "bienici:ag752345-556282274": {
       "first_seen": "2026-11-16T15:58:45.673774+00:00",
       "rent": 775.13,
@@ -160,6 +154,12 @@
       "rent": 776.0,
       "title": "Appartement studio à PARIS 11ème",
       "url": "https://www.bienici.com/annonce/ag752352-561276560"
+    },
+    "bienici:ag752352-562762793": {
+      "first_seen": "2026-11-25T22:48:53.607229+00:00",
+      "rent": 690.0,
+      "title": "Appartement studio à PARIS 9ème",
+      "url": "https://www.bienici.com/annonce/ag752352-562762793"
     },
     "bienici:ag752485-554905364": {
       "first_seen": "2026-11-16T15:58:45.673799+00:00",
@@ -335,12 +335,6 @@
       "title": "Studio meublé de 15 m2",
       "url": "https://www.bienici.com/annonce/ag753878-562116275"
     },
-    "bienici:ag754025-556121216": {
-      "first_seen": "2026-11-16T15:58:45.673777+00:00",
-      "rent": 765.0,
-      "title": "Studio",
-      "url": "https://www.bienici.com/annonce/ag754025-556121216"
-    },
     "bienici:ag754025-558980900": {
       "first_seen": "2026-11-16T15:58:45.673692+00:00",
       "rent": 787.0,
@@ -479,6 +473,12 @@
       "title": "Co-location à La Courneuve (93120)",
       "url": "https://www.bienici.com/annonce/ag755239-562142084"
     },
+    "bienici:ag756001-562727018": {
+      "first_seen": "2026-11-25T22:48:44.169266+00:00",
+      "rent": 450.0,
+      "title": "Appartement 1 pièce à Paris (75018)",
+      "url": "https://www.bienici.com/annonce/ag756001-562727018"
+    },
     "bienici:ag771667-551364308": {
       "first_seen": "2026-11-16T15:58:45.673838+00:00",
       "rent": 800.0,
@@ -544,6 +544,12 @@
       "rent": 750.0,
       "title": "Studio meublé de 21 m² – Nanterre-Ville",
       "url": "https://www.bienici.com/annonce/ag923443-562464344"
+    },
+    "bienici:ag933506-554892368": {
+      "first_seen": "2026-11-25T22:48:46.337219+00:00",
+      "rent": 520.0,
+      "title": "Studio de 18,46m2 à Pavillons sous bois",
+      "url": "https://www.bienici.com/annonce/ag933506-554892368"
     },
     "bienici:ag933506-558974501": {
       "first_seen": "2026-11-16T15:58:45.673695+00:00",
@@ -616,6 +622,18 @@
       "rent": 650.0,
       "title": "Appartement Villiers Sur Marne 1 pièce(s) 24.61 m2",
       "url": "https://www.bienici.com/annonce/ag942551-561746732"
+    },
+    "bienici:ag942556-562720232": {
+      "first_seen": "2026-11-25T22:48:48.661345+00:00",
+      "rent": 670.0,
+      "title": "Studio meublée à louer",
+      "url": "https://www.bienici.com/annonce/ag942556-562720232"
+    },
+    "bienici:ag943167-562727636": {
+      "first_seen": "2026-11-25T22:48:54.723802+00:00",
+      "rent": 693.0,
+      "title": "PIERREFITTE-SUR-SEINE – STUDIO MEUBLÉ DE 27 M²",
+      "url": "https://www.bienici.com/annonce/ag943167-562727636"
     },
     "bienici:apimo-5881547": {
       "first_seen": "2026-11-24T20:04:52.030910+00:00",
@@ -821,11 +839,17 @@
       "title": "T1 25 m² — Livry-Gargan",
       "url": "https://www.bienici.com/annonce/citya-immobilier-31734074300036-GES72310004-720"
     },
-    "bienici:citya-immobilier-5049-GES80250011-182": {
-      "first_seen": "2026-11-23T23:46:10.284381+00:00",
-      "rent": 795.44,
-      "title": "T1 28.08 m² — Villiers-sur-Marne",
-      "url": "https://www.bienici.com/annonce/citya-immobilier-5049-GES80250011-182"
+    "bienici:citya-immobilier-5049-GES06331015-182": {
+      "first_seen": "2026-11-25T22:48:57.050112+00:00",
+      "rent": 799.22,
+      "title": "T1 25.01 m² — Paris 13e",
+      "url": "https://www.bienici.com/annonce/citya-immobilier-5049-GES06331015-182"
+    },
+    "bienici:citya-immobilier-5051-GES31410035-220": {
+      "first_seen": "2026-11-25T22:48:47.543277+00:00",
+      "rent": 610.41,
+      "title": "T1 29.32 m² — Noisy-le-Grand",
+      "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES31410035-220"
     },
     "bienici:citya-immobilier-5051-GES31920022-220": {
       "first_seen": "2026-11-25T03:33:51.961412+00:00",
@@ -862,6 +886,12 @@
       "rent": 706.0,
       "title": "Studio 1 pièce 92500",
       "url": "https://www.bienici.com/annonce/dauchez-33273"
+    },
+    "bienici:dauchez-39449": {
+      "first_seen": "2026-11-25T22:48:55.838907+00:00",
+      "rent": 750.0,
+      "title": "Appartement 1 pièce 93390",
+      "url": "https://www.bienici.com/annonce/dauchez-39449"
     },
     "bienici:era-2-61715695": {
       "first_seen": "2026-11-16T15:58:45.673716+00:00",
@@ -994,6 +1024,12 @@
       "rent": 550.0,
       "title": "Appartement Paris 1 pièce(s) 10 m2",
       "url": "https://www.bienici.com/annonce/guy-hoquet-immo-facile-7832575"
+    },
+    "bienici:guy-hoquet-immo-facile-7838303": {
+      "first_seen": "2026-11-25T22:48:49.764301+00:00",
+      "rent": 680.0,
+      "title": "Allée de la Noiseraie (Noisy-le-Grand) - À 6 minutes du RER A Noisy-Champs",
+      "url": "https://www.bienici.com/annonce/guy-hoquet-immo-facile-7838303"
     },
     "bienici:hektor-1_3203-5709": {
       "first_seen": "2026-11-16T15:58:45.673770+00:00",
@@ -1403,12 +1439,6 @@
       "title": "Joli studio meublé",
       "url": "https://www.bienici.com/annonce/netty-cost92-appt-20269"
     },
-    "bienici:netty-heim-appt-2177": {
-      "first_seen": "2026-11-16T15:58:45.673859+00:00",
-      "rent": 770.0,
-      "title": "Vaucresson - Appartement 1 pièce 24 M² meublé",
-      "url": "https://www.bienici.com/annonce/netty-heim-appt-2177"
-    },
     "bienici:netty-immocondorcet-appt-2000": {
       "first_seen": "2026-11-16T15:58:45.673920+00:00",
       "rent": 655.0,
@@ -1426,12 +1456,6 @@
       "rent": 790.0,
       "title": "STUDIO RUEIL-MALMAISON PLAINE GARE PROCHE GARES RER RUEIL ET NAN",
       "url": "https://www.bienici.com/annonce/netty-rueil-appt-3021"
-    },
-    "crous:712": {
-      "first_seen": "2026-11-25T16:30:30.939088+00:00",
-      "rent": 265.79,
-      "title": "Nanterre",
-      "url": "https://trouverunlogement.lescrous.fr/tools/48/accommodations/712"
     }
   }
 }

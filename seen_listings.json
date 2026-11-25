@@ -148,6 +148,12 @@
       "title": "Studio / 13m² / Boucicaut (Ligne 8)",
       "url": "https://www.bienici.com/annonce/ag752485-562447634"
     },
+    "bienici:ag752485-562598738": {
+      "first_seen": "2026-11-25T13:31:40.404600+00:00",
+      "rent": 740.0,
+      "title": "Studio / 13m² / Porte de Versailles (Ligne 12)",
+      "url": "https://www.bienici.com/annonce/ag752485-562598738"
+    },
     "bienici:ag752861-426261727": {
       "first_seen": "2026-11-16T15:58:45.673936+00:00",
       "rent": 770.0,
@@ -231,6 +237,30 @@
       "rent": 790.0,
       "title": "Studio",
       "url": "https://www.bienici.com/annonce/ag752861-530542784"
+    },
+    "bienici:ag752861-552152123": {
+      "first_seen": "2026-11-25T13:31:38.056487+00:00",
+      "rent": 600.0,
+      "title": "Studio",
+      "url": "https://www.bienici.com/annonce/ag752861-552152123"
+    },
+    "bienici:ag752861-556425476": {
+      "first_seen": "2026-11-25T13:31:44.025989+00:00",
+      "rent": 769.0,
+      "title": "Studio",
+      "url": "https://www.bienici.com/annonce/ag752861-556425476"
+    },
+    "bienici:ag752861-557013176": {
+      "first_seen": "2026-11-25T13:31:42.844021+00:00",
+      "rent": 759.0,
+      "title": "Studio",
+      "url": "https://www.bienici.com/annonce/ag752861-557013176"
+    },
+    "bienici:ag752861-557013200": {
+      "first_seen": "2026-11-25T13:31:47.671453+00:00",
+      "rent": 795.0,
+      "title": "Studio",
+      "url": "https://www.bienici.com/annonce/ag752861-557013200"
     },
     "bienici:ag752861-557014871": {
       "first_seen": "2026-11-16T15:58:45.673755+00:00",
@@ -412,12 +442,6 @@
       "title": "Co-location à La Courneuve (93120)",
       "url": "https://www.bienici.com/annonce/ag755239-562142084"
     },
-    "bienici:ag756444-514580714": {
-      "first_seen": "2026-11-16T15:58:45.673890+00:00",
-      "rent": 735.0,
-      "title": "Appartement À Louer",
-      "url": "https://www.bienici.com/annonce/ag756444-514580714"
-    },
     "bienici:ag771667-551364308": {
       "first_seen": "2026-11-16T15:58:45.673838+00:00",
       "rent": 800.0,
@@ -573,6 +597,12 @@
       "rent": 595.0,
       "title": "M° PIERRE ET MARIE CURIE",
       "url": "https://www.bienici.com/annonce/apimo-84881068"
+    },
+    "bienici:apimo-85423777": {
+      "first_seen": "2026-11-25T13:31:39.237755+00:00",
+      "rent": 655.0,
+      "title": "STUDIO 17m²",
+      "url": "https://www.bienici.com/annonce/apimo-85423777"
     },
     "bienici:apimo-87321183": {
       "first_seen": "2026-11-16T15:58:45.673852+00:00",
@@ -784,6 +814,18 @@
       "title": "Studio avec Parking - Saint-Maur Les Mûriers",
       "url": "https://www.bienici.com/annonce/era-2-61715695"
     },
+    "bienici:flatbay-17307": {
+      "first_seen": "2026-11-25T13:31:41.662071+00:00",
+      "rent": 757.0,
+      "title": "Studio meublé de 15 m2",
+      "url": "https://www.bienici.com/annonce/flatbay-17307"
+    },
+    "bienici:flatbay-17469": {
+      "first_seen": "2026-11-25T13:31:45.217900+00:00",
+      "rent": 780.0,
+      "title": "F1 meublé I Livry-Gargan",
+      "url": "https://www.bienici.com/annonce/flatbay-17469"
+    },
     "bienici:gedeon-29013520": {
       "first_seen": "2026-11-16T15:58:45.673944+00:00",
       "rent": 759.0,
@@ -916,6 +958,12 @@
       "title": "LA VARENNE SAINT HILAIRE - F1 - 27 M2",
       "url": "https://www.bienici.com/annonce/hektor-agence-centrale-de-choisy-1700"
     },
+    "bienici:hektor-agence-centrale-de-choisy-605": {
+      "first_seen": "2026-11-25T13:31:36.875595+00:00",
+      "rent": 480.0,
+      "title": "CHOISY LE ROI - STUDETTE - 15 M2",
+      "url": "https://www.bienici.com/annonce/hektor-agence-centrale-de-choisy-605"
+    },
     "bienici:hektor-agencedelaposte-487": {
       "first_seen": "2026-11-16T15:58:45.673772+00:00",
       "rent": 660.0,
@@ -933,12 +981,6 @@
       "rent": 634.0,
       "title": "Studio en location à Vitry-Sur-Seine",
       "url": "https://www.bienici.com/annonce/hektor-agenceepoque-602"
-    },
-    "bienici:hektor-annecarole-JOINVILLE-LE-PONT-72554": {
-      "first_seen": "2026-11-24T20:04:54.492800+00:00",
-      "rent": 600.0,
-      "title": "Appartement - 14.63 m2 - 1 pièce",
-      "url": "https://www.bienici.com/annonce/hektor-annecarole-JOINVILLE-LE-PONT-72554"
     },
     "bienici:hektor-cmb-1372": {
       "first_seen": "2026-11-16T15:58:45.673968+00:00",
@@ -1108,6 +1150,12 @@
       "title": "STUDIO CHATENAY MALABRY - 1 pièce(s) - 33.18 m2",
       "url": "https://www.bienici.com/annonce/immo-facile-44206008"
     },
+    "bienici:immo-facile-53383662": {
+      "first_seen": "2026-11-25T13:31:46.424491+00:00",
+      "rent": 788.0,
+      "title": "BOIS-COLOMBES",
+      "url": "https://www.bienici.com/annonce/immo-facile-53383662"
+    },
     "bienici:immo-facile-54763190": {
       "first_seen": "2026-11-16T15:58:45.673950+00:00",
       "rent": 602.0,
@@ -1155,12 +1203,6 @@
       "rent": 690.0,
       "title": "Appartement Courbevoie Studio meublé - 10.42 m2",
       "url": "https://www.bienici.com/annonce/ladresse-1-adresse-13264379"
-    },
-    "bienici:ladresse-1-adresse-14703460": {
-      "first_seen": "2026-11-24T20:04:50.807155+00:00",
-      "rent": 450.0,
-      "title": "Appartement Aubervilliers 1 pièce(s)",
-      "url": "https://www.bienici.com/annonce/ladresse-1-adresse-14703460"
     },
     "bienici:laforet-immo-facile-19724769": {
       "first_seen": "2026-11-24T20:05:07.295318+00:00",
@@ -1263,18 +1305,6 @@
       "rent": 695.0,
       "title": "Appartement à louer Le Plessis-Robinson",
       "url": "https://www.bienici.com/annonce/netty-company36905zuv-appt-3681"
-    },
-    "bienici:netty-company51181gwz-appt-2898": {
-      "first_seen": "2026-11-25T03:33:50.823737+00:00",
-      "rent": 623.0,
-      "title": "Appartement",
-      "url": "https://www.bienici.com/annonce/netty-company51181gwz-appt-2898"
-    },
-    "bienici:netty-company51181gwz-appt-3814": {
-      "first_seen": "2026-11-18T16:28:12.440227+00:00",
-      "rent": 495.0,
-      "title": "Appartement",
-      "url": "https://www.bienici.com/annonce/netty-company51181gwz-appt-3814"
     },
     "bienici:netty-company54028bva-appt-16599": {
       "first_seen": "2026-11-16T15:58:45.673863+00:00",

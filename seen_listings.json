@@ -76,12 +76,6 @@
       "title": "Studette FNAC des TERNES/ETOILE",
       "url": "https://www.bienici.com/annonce/ag750940-561575675"
     },
-    "bienici:ag751903-562261007": {
-      "first_seen": "2026-11-23T23:45:56.668364+00:00",
-      "rent": 490.0,
-      "title": "STUDETTE POMPE/MUETTE",
-      "url": "https://www.bienici.com/annonce/ag751903-562261007"
-    },
     "bienici:ag752345-555179819": {
       "first_seen": "2026-11-16T15:58:45.673796+00:00",
       "rent": 790.0,
@@ -129,12 +123,6 @@
       "rent": 776.0,
       "title": "Appartement studio à PARIS 11ème",
       "url": "https://www.bienici.com/annonce/ag752352-561276560"
-    },
-    "bienici:ag752352-561592025": {
-      "first_seen": "2026-11-21T00:40:44.342560+00:00",
-      "rent": 457.0,
-      "title": "Appartement studio à PIERREFITTE SUR SEINE",
-      "url": "https://www.bienici.com/annonce/ag752352-561592025"
     },
     "bienici:ag752485-554905364": {
       "first_seen": "2026-11-16T15:58:45.673799+00:00",
@@ -243,36 +231,6 @@
       "rent": 790.0,
       "title": "Studio",
       "url": "https://www.bienici.com/annonce/ag752861-530542784"
-    },
-    "bienici:ag752861-552152123": {
-      "first_seen": "2026-11-16T15:58:45.673832+00:00",
-      "rent": 600.0,
-      "title": "Studio",
-      "url": "https://www.bienici.com/annonce/ag752861-552152123"
-    },
-    "bienici:ag752861-556425476": {
-      "first_seen": "2026-11-16T15:58:45.673769+00:00",
-      "rent": 769.0,
-      "title": "Studio",
-      "url": "https://www.bienici.com/annonce/ag752861-556425476"
-    },
-    "bienici:ag752861-557013176": {
-      "first_seen": "2026-11-16T15:58:45.673753+00:00",
-      "rent": 759.0,
-      "title": "Studio",
-      "url": "https://www.bienici.com/annonce/ag752861-557013176"
-    },
-    "bienici:ag752861-557013200": {
-      "first_seen": "2026-11-16T15:58:45.673757+00:00",
-      "rent": 795.0,
-      "title": "Studio",
-      "url": "https://www.bienici.com/annonce/ag752861-557013200"
-    },
-    "bienici:ag752861-557013227": {
-      "first_seen": "2026-11-16T15:58:45.673752+00:00",
-      "rent": 749.0,
-      "title": "Studio",
-      "url": "https://www.bienici.com/annonce/ag752861-557013227"
     },
     "bienici:ag752861-557014871": {
       "first_seen": "2026-11-16T15:58:45.673755+00:00",
@@ -460,12 +418,6 @@
       "title": "Appartement À Louer",
       "url": "https://www.bienici.com/annonce/ag756444-514580714"
     },
-    "bienici:ag756576-562293728": {
-      "first_seen": "2026-11-24T08:56:59.352478+00:00",
-      "rent": 689.0,
-      "title": "Appartement Paris 1 pièce(s)",
-      "url": "https://www.bienici.com/annonce/ag756576-562293728"
-    },
     "bienici:ag771667-551364308": {
       "first_seen": "2026-11-16T15:58:45.673838+00:00",
       "rent": 800.0,
@@ -525,6 +477,12 @@
       "rent": 750.0,
       "title": "Studio en parfait etat",
       "url": "https://www.bienici.com/annonce/ag922875-562428029"
+    },
+    "bienici:ag923443-562464344": {
+      "first_seen": "2026-11-25T03:33:53.114038+00:00",
+      "rent": 750.0,
+      "title": "Studio meublé de 21 m² – Nanterre-Ville",
+      "url": "https://www.bienici.com/annonce/ag923443-562464344"
     },
     "bienici:ag933506-558974501": {
       "first_seen": "2026-11-16T15:58:45.673695+00:00",
@@ -783,6 +741,12 @@
       "rent": 795.44,
       "title": "T1 28.08 m² — Villiers-sur-Marne",
       "url": "https://www.bienici.com/annonce/citya-immobilier-5049-GES80250011-182"
+    },
+    "bienici:citya-immobilier-5051-GES31920022-220": {
+      "first_seen": "2026-11-25T03:33:51.961412+00:00",
+      "rent": 742.45,
+      "title": "T1 33.6 m² — Noisy-le-Grand",
+      "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES31920022-220"
     },
     "bienici:citya-immobilier-5051-GES52860052-220": {
       "first_seen": "2026-11-16T15:58:45.673970+00:00",
@@ -1299,6 +1263,12 @@
       "rent": 695.0,
       "title": "Appartement à louer Le Plessis-Robinson",
       "url": "https://www.bienici.com/annonce/netty-company36905zuv-appt-3681"
+    },
+    "bienici:netty-company51181gwz-appt-2898": {
+      "first_seen": "2026-11-25T03:33:50.823737+00:00",
+      "rent": 623.0,
+      "title": "Appartement",
+      "url": "https://www.bienici.com/annonce/netty-company51181gwz-appt-2898"
     },
     "bienici:netty-company51181gwz-appt-3814": {
       "first_seen": "2026-11-18T16:28:12.440227+00:00",

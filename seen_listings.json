@@ -1,9 +1,46 @@
 {
   "initialized_sources": [
+    "arpej",
     "bienici",
     "crous"
   ],
   "listings": {
+    "arpej:du-parc-residence-etudiante-charenton-le-pont": {
+      "first_seen": "2026-11-25T16:31:14.784652+00:00",
+      "rent": 593.0,
+      "title": "Résidence étudiante Du Parc — 1 logement disponible",
+      "url": "https://www.arpej.fr/fr/residence/du-parc-residence-etudiante-charenton-le-pont/"
+    },
+    "arpej:etudiante-pierre-vidal-naquet-saint-denis": {
+      "first_seen": "2026-11-25T16:31:14.784657+00:00",
+      "rent": 431.0,
+      "title": "Résidence étudiante Pierre Vidal-Naquet — 1 logement disponible",
+      "url": "https://www.arpej.fr/fr/residence/etudiante-pierre-vidal-naquet-saint-denis/"
+    },
+    "arpej:frida-kahlo-residence-etudiante-montreuil": {
+      "first_seen": "2026-11-25T16:31:14.784655+00:00",
+      "rent": 556.0,
+      "title": "Résidence étudiante Frida Kahlo — 1 logement disponible",
+      "url": "https://www.arpej.fr/fr/residence/frida-kahlo-residence-etudiante-montreuil/"
+    },
+    "arpej:pierre-gilles-de-gennes-residence-etudiante-villejuif": {
+      "first_seen": "2026-11-25T16:31:14.784662+00:00",
+      "rent": 610.0,
+      "title": "Résidence étudiante Pierre-gilles De Gennes – Villejuif — 1 logement disponible",
+      "url": "https://www.arpej.fr/fr/residence/pierre-gilles-de-gennes-residence-etudiante-villejuif/"
+    },
+    "arpej:val-pompadour-residence-etudiante-valenton": {
+      "first_seen": "2026-11-25T16:31:14.784660+00:00",
+      "rent": 588.0,
+      "title": "Résidence étudiante Val Pompadour — 1 logement disponible",
+      "url": "https://www.arpej.fr/fr/residence/val-pompadour-residence-etudiante-valenton/"
+    },
+    "arpej:volti-residence-etudiante-cachan": {
+      "first_seen": "2026-11-25T16:31:14.784633+00:00",
+      "rent": 440.0,
+      "title": "Résidence étudiante Volti — 1 logement disponible",
+      "url": "https://www.arpej.fr/fr/residence/volti-residence-etudiante-cachan/"
+    },
     "bienici:ag135790-559151636": {
       "first_seen": "2026-11-16T15:58:45.673675+00:00",
       "rent": 712.48,
@@ -622,6 +659,12 @@
       "title": "SUCY EN BRIE - Grand studio de 36 m²",
       "url": "https://www.bienici.com/annonce/apimo-87438937"
     },
+    "bienici:apimo-87499939": {
+      "first_seen": "2026-11-25T16:30:40.187716+00:00",
+      "rent": 680.0,
+      "title": "STUDIO MEUBLE - AVENUE DAUMESNIL - PARFAIT ETAT",
+      "url": "https://www.bienici.com/annonce/apimo-87499939"
+    },
     "bienici:apimo-87540579": {
       "first_seen": "2026-11-16T15:58:45.673712+00:00",
       "rent": 800.0,
@@ -663,6 +706,12 @@
       "rent": 746.0,
       "title": "75019 - Appartement 1 pièce de 16.02 m²",
       "url": "https://www.bienici.com/annonce/apimo-87623727"
+    },
+    "bienici:apimo-87634916": {
+      "first_seen": "2026-11-25T16:30:36.525787+00:00",
+      "rent": 544.0,
+      "title": "KREMLIN BICETRE - A LOUER VIDE - BEAU STUDIO - 16M2 - 6EME ETAGE",
+      "url": "https://www.bienici.com/annonce/apimo-87634916"
     },
     "bienici:century-21-202_1113_27899": {
       "first_seen": "2026-11-16T15:58:45.673840+00:00",
@@ -766,6 +815,12 @@
       "title": "T1 27.48 m² — Créteil",
       "url": "https://www.bienici.com/annonce/century-21-202_761_27847"
     },
+    "bienici:citya-immobilier-31734074300036-GES72310004-720": {
+      "first_seen": "2026-11-25T16:30:37.779269+00:00",
+      "rent": 660.0,
+      "title": "T1 25 m² — Livry-Gargan",
+      "url": "https://www.bienici.com/annonce/citya-immobilier-31734074300036-GES72310004-720"
+    },
     "bienici:citya-immobilier-5049-GES80250011-182": {
       "first_seen": "2026-11-23T23:46:10.284381+00:00",
       "rent": 795.44,
@@ -784,11 +839,11 @@
       "title": "T1 34.23 m² — Noisy-le-Grand",
       "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES52860052-220"
     },
-    "bienici:citya-immobilier-5054-GES11780012-208": {
-      "first_seen": "2026-11-16T15:58:45.673672+00:00",
-      "rent": 774.79,
-      "title": "T1 26.06 m² — Le Perreux-sur-Marne",
-      "url": "https://www.bienici.com/annonce/citya-immobilier-5054-GES11780012-208"
+    "bienici:citya-immobilier-749865-GES06320005-478": {
+      "first_seen": "2026-11-25T16:30:38.986116+00:00",
+      "rent": 678.27,
+      "title": "T1 18 m² — Le Perreux-sur-Marne",
+      "url": "https://www.bienici.com/annonce/citya-immobilier-749865-GES06320005-478"
     },
     "bienici:dauchez-31162": {
       "first_seen": "2026-11-20T18:51:20.623012+00:00",
@@ -891,6 +946,12 @@
       "rent": 756.0,
       "title": "Studio Courbevoie",
       "url": "https://www.bienici.com/annonce/gedeon-34259353"
+    },
+    "bienici:gedeon-34266326": {
+      "first_seen": "2026-11-25T16:30:41.399512+00:00",
+      "rent": 700.0,
+      "title": "T1 16 m² — Paris 12e",
+      "url": "https://www.bienici.com/annonce/gedeon-34266326"
     },
     "bienici:guy-hoquet-18-GT0191-1861": {
       "first_seen": "2026-11-16T15:58:45.673707+00:00",
@@ -1204,6 +1265,12 @@
       "title": "Appartement Courbevoie Studio meublé - 10.42 m2",
       "url": "https://www.bienici.com/annonce/ladresse-1-adresse-13264379"
     },
+    "bienici:laforet-immo-facile-17245533": {
+      "first_seen": "2026-11-25T16:30:42.683933+00:00",
+      "rent": 750.0,
+      "title": "PASSY- Studio meublé",
+      "url": "https://www.bienici.com/annonce/laforet-immo-facile-17245533"
+    },
     "bienici:laforet-immo-facile-19724769": {
       "first_seen": "2026-11-24T20:05:07.295318+00:00",
       "rent": 774.0,
@@ -1359,6 +1426,12 @@
       "rent": 790.0,
       "title": "STUDIO RUEIL-MALMAISON PLAINE GARE PROCHE GARES RER RUEIL ET NAN",
       "url": "https://www.bienici.com/annonce/netty-rueil-appt-3021"
+    },
+    "crous:712": {
+      "first_seen": "2026-11-25T16:30:30.939088+00:00",
+      "rent": 265.79,
+      "title": "Nanterre",
+      "url": "https://trouverunlogement.lescrous.fr/tools/48/accommodations/712"
     }
   }
 }

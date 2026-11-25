@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from sources import SourceUnavailable, bienici, crous
+from sources import SourceUnavailable, arpej, bienici, crous
 
 # --- Critères de recherche (modifiables via variables d'environnement) ----------------------
 MAX_RENT = float((os.environ.get("MAX_RENT") or "800"))  # loyer max charges comprises
@@ -194,6 +194,7 @@ def summary_embed(source_label: str, listings: list[dict]) -> dict:
 SOURCES = [
     (crous, lambda: crous.fetch()),
     (bienici, lambda: bienici.fetch(MAX_RENT)),
+    (arpej, lambda: arpej.fetch(MAX_RENT)),
 ]
 
 

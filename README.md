@@ -10,9 +10,11 @@ Surveille les nouvelles annonces de **studios et T1** (logement individuel, pas 
 |---|---|
 | [CROUS](https://trouverunlogement.lescrous.fr) | Résidences étudiantes CROUS (mode « Individuel » uniquement) |
 | [Bien'ici](https://www.bienici.com) | Annonces de la plupart des agences et réseaux (Century 21, Laforêt, Guy Hoquet, IAD…) |
+| [ARPEJ](https://www.arpej.fr/fr/nos-residences/) | Résidences étudiantes et jeunes actifs : notification quand une résidence passe de « complet » à « N disponible(s) » |
 
-Non couverts (protection anti-robots ou annonces chargées en JavaScript) : Leboncoin, SeLoger,
-PAP, Studapart, ImmoJeune. Pour ceux-là, active directement leurs alertes, ou utilise une appli
+Non couverts : Leboncoin, SeLoger, PAP, Studapart, ImmoJeune (protection anti-robots ou annonces
+chargées en JavaScript), ALJT (le site liste ses résidences mais n'affiche aucune disponibilité :
+on candidate depuis l'espace candidat) et CLJT (site injoignable lors des tests). Pour ceux-là, active directement leurs alertes, ou utilise une appli
 qui les regroupe comme Jinka.
 
 ## Ce que fait le bot
@@ -76,7 +78,7 @@ python main.py
 ## Fichiers
 
 - `main.py` : filtres, détection d'arnaques, notifications Discord, état.
-- `sources/crous.py`, `sources/bienici.py` : un module par site. Pour ajouter un site, il suffit
+- `sources/crous.py`, `sources/bienici.py`, `sources/arpej.py` : un module par site. Pour ajouter un site, il suffit
   de créer un module avec une fonction `fetch()` qui renvoie des annonces au même format (voir
   `sources/__init__.py`), puis de l'ajouter à `SOURCES` dans `main.py`.
 - `seen_listings.json` : annonces déjà notifiées (mis à jour par le workflow).

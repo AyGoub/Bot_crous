@@ -653,12 +653,6 @@
       "title": "M° PIERRE ET MARIE CURIE",
       "url": "https://www.bienici.com/annonce/apimo-84881068"
     },
-    "bienici:apimo-85423777": {
-      "first_seen": "2026-11-25T13:31:39.237755+00:00",
-      "rent": 655.0,
-      "title": "STUDIO 17m²",
-      "url": "https://www.bienici.com/annonce/apimo-85423777"
-    },
     "bienici:apimo-87321183": {
       "first_seen": "2026-11-16T15:58:45.673852+00:00",
       "rent": 650.0,
@@ -737,11 +731,17 @@
       "title": "Studio 21.47 m² — Gennevilliers",
       "url": "https://www.bienici.com/annonce/century-21-202_1113_27899"
     },
-    "bienici:century-21-202_2281_30909": {
-      "first_seen": "2026-11-16T15:58:45.673765+00:00",
-      "rent": 613.0,
-      "title": "T1 15.3 m² — Le Kremlin-Bicêtre",
-      "url": "https://www.bienici.com/annonce/century-21-202_2281_30909"
+    "bienici:century-21-202_1113_30063": {
+      "first_seen": "2026-11-26T04:44:32.375010+00:00",
+      "rent": 739.0,
+      "title": "Studio 24.59 m² — Colombes",
+      "url": "https://www.bienici.com/annonce/century-21-202_1113_30063"
+    },
+    "bienici:century-21-202_119_9131": {
+      "first_seen": "2026-11-26T04:44:33.481621+00:00",
+      "rent": 796.0,
+      "title": "T1 25 m² — Bourg-la-Reine",
+      "url": "https://www.bienici.com/annonce/century-21-202_119_9131"
     },
     "bienici:century-21-202_2772_7031": {
       "first_seen": "2026-11-16T15:58:45.673855+00:00",

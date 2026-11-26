@@ -29,6 +29,12 @@
       "title": "Résidence étudiante Pierre-gilles De Gennes – Villejuif — 1 logement disponible",
       "url": "https://www.arpej.fr/fr/residence/pierre-gilles-de-gennes-residence-etudiante-villejuif/"
     },
+    "arpej:val-pompadour-residence-etudiante-valenton": {
+      "first_seen": "2026-11-26T23:21:09.300227+00:00",
+      "rent": 588.0,
+      "title": "Résidence étudiante Val Pompadour — 1 logement disponible",
+      "url": "https://www.arpej.fr/fr/residence/val-pompadour-residence-etudiante-valenton/"
+    },
     "arpej:volti-residence-etudiante-cachan": {
       "first_seen": "2026-11-25T16:31:14.784633+00:00",
       "rent": 440.0,
@@ -77,12 +83,6 @@
       "title": "Studio / 17m² / Champigny (RER A)",
       "url": "https://www.bienici.com/annonce/ag750135-543384125"
     },
-    "bienici:ag750135-553894346": {
-      "first_seen": "2026-11-16T15:58:45.673813+00:00",
-      "rent": 800.0,
-      "title": "Studio / 28m² / La Varenne Chennevières (RER A)",
-      "url": "https://www.bienici.com/annonce/ag750135-553894346"
-    },
     "bienici:ag750135-554400452": {
       "first_seen": "2026-11-16T15:58:45.673808+00:00",
       "rent": 700.0,
@@ -107,6 +107,12 @@
       "title": "Studio / 11m² / Avron (Ligne 2)",
       "url": "https://www.bienici.com/annonce/ag750135-562198499"
     },
+    "bienici:ag750135-562949414": {
+      "first_seen": "2026-11-26T23:20:35.604130+00:00",
+      "rent": 750.0,
+      "title": "Studio / 19m² / Villeneuve-Saint-Georges (RER D)",
+      "url": "https://www.bienici.com/annonce/ag750135-562949414"
+    },
     "bienici:ag750940-561575675": {
       "first_seen": "2026-11-21T00:40:45.626008+00:00",
       "rent": 650.0,
@@ -118,12 +124,6 @@
       "rent": 775.13,
       "title": "Créteil - L'échat",
       "url": "https://www.bienici.com/annonce/ag752345-556282274"
-    },
-    "bienici:ag752345-558420389": {
-      "first_seen": "2026-11-16T15:58:45.673711+00:00",
-      "rent": 750.0,
-      "title": "Paris",
-      "url": "https://www.bienici.com/annonce/ag752345-558420389"
     },
     "bienici:ag752345-561265100": {
       "first_seen": "2026-11-19T21:43:32.767792+00:00",
@@ -137,6 +137,12 @@
       "title": "Porte de Bagnolet",
       "url": "https://www.bienici.com/annonce/ag752345-562137863"
     },
+    "bienici:ag752345-563005349": {
+      "first_seen": "2026-11-26T23:20:36.841686+00:00",
+      "rent": 757.28,
+      "title": "T1 meublé - 9, Avenue Calmels, 92270, Bois-Colombes, France",
+      "url": "https://www.bienici.com/annonce/ag752345-563005349"
+    },
     "bienici:ag752352-558177665": {
       "first_seen": "2026-11-16T15:58:45.673722+00:00",
       "rent": 775.0,
@@ -148,12 +154,6 @@
       "rent": 541.0,
       "title": "Appartement studio à SAINT DENIS",
       "url": "https://www.bienici.com/annonce/ag752352-560551229"
-    },
-    "bienici:ag752352-561276560": {
-      "first_seen": "2026-11-19T21:43:36.505778+00:00",
-      "rent": 776.0,
-      "title": "Appartement studio à PARIS 11ème",
-      "url": "https://www.bienici.com/annonce/ag752352-561276560"
     },
     "bienici:ag752352-562762793": {
       "first_seen": "2026-11-25T22:48:53.607229+00:00",
@@ -455,12 +455,6 @@
       "title": "Co-location à Saint-Denis (93200)",
       "url": "https://www.bienici.com/annonce/ag755239-559295246"
     },
-    "bienici:ag755239-560458883": {
-      "first_seen": "2026-11-16T15:58:45.673627+00:00",
-      "rent": 627.0,
-      "title": "Co-location à Villiers-sur-Marne (94350)",
-      "url": "https://www.bienici.com/annonce/ag755239-560458883"
-    },
     "bienici:ag755239-561573974": {
       "first_seen": "2026-11-23T11:57:53.002237+00:00",
       "rent": 730.0,
@@ -557,11 +551,11 @@
       "title": "F1 meublé I Livry-Gargan",
       "url": "https://www.bienici.com/annonce/ag933506-558974501"
     },
-    "bienici:ag933582-561756512": {
-      "first_seen": "2026-11-21T21:13:16.093113+00:00",
+    "bienici:ag933582-562967720": {
+      "first_seen": "2026-11-26T23:20:33.350505+00:00",
       "rent": 720.0,
       "title": "LIVRY-GARGAN 93190 Appartement Studio F1 T1 Tramway T4  (Hen",
-      "url": "https://www.bienici.com/annonce/ag933582-561756512"
+      "url": "https://www.bienici.com/annonce/ag933582-562967720"
     },
     "bienici:ag941672-553093277": {
       "first_seen": "2026-11-16T15:58:45.673826+00:00",
@@ -623,12 +617,6 @@
       "title": "Appartement Villiers Sur Marne 1 pièce(s) 24.61 m2",
       "url": "https://www.bienici.com/annonce/ag942551-561746732"
     },
-    "bienici:ag942556-562720232": {
-      "first_seen": "2026-11-25T22:48:48.661345+00:00",
-      "rent": 670.0,
-      "title": "Studio meublée à louer",
-      "url": "https://www.bienici.com/annonce/ag942556-562720232"
-    },
     "bienici:ag943167-562727636": {
       "first_seen": "2026-11-25T22:48:54.723802+00:00",
       "rent": 693.0,
@@ -640,6 +628,12 @@
       "rent": 540.0,
       "title": "Appartement Choisy Le Roi 1 pièce",
       "url": "https://www.bienici.com/annonce/apimo-5881547"
+    },
+    "bienici:apimo-6526221": {
+      "first_seen": "2026-11-26T23:20:30.864125+00:00",
+      "rent": 590.0,
+      "title": "** ASNIERES SUR SEINE ** RUE LOUIS VUITTON - STUDIO",
+      "url": "https://www.bienici.com/annonce/apimo-6526221"
     },
     "bienici:apimo-83057013": {
       "first_seen": "2026-11-16T15:58:45.673653+00:00",
@@ -718,12 +712,6 @@
       "rent": 746.0,
       "title": "75019 - Appartement 1 pièce de 16.02 m²",
       "url": "https://www.bienici.com/annonce/apimo-87623727"
-    },
-    "bienici:apimo-87634916": {
-      "first_seen": "2026-11-25T16:30:36.525787+00:00",
-      "rent": 544.0,
-      "title": "KREMLIN BICETRE - A LOUER VIDE - BEAU STUDIO - 16M2 - 6EME ETAGE",
-      "url": "https://www.bienici.com/annonce/apimo-87634916"
     },
     "bienici:century-21-202_1113_27899": {
       "first_seen": "2026-11-16T15:58:45.673840+00:00",
@@ -857,12 +845,6 @@
       "title": "T1 34.23 m² — Noisy-le-Grand",
       "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES52860052-220"
     },
-    "bienici:citya-immobilier-749865-GES06320005-478": {
-      "first_seen": "2026-11-25T16:30:38.986116+00:00",
-      "rent": 678.27,
-      "title": "T1 18 m² — Le Perreux-sur-Marne",
-      "url": "https://www.bienici.com/annonce/citya-immobilier-749865-GES06320005-478"
-    },
     "bienici:dauchez-31162": {
       "first_seen": "2026-11-20T18:51:20.623012+00:00",
       "rent": 717.0,
@@ -874,12 +856,6 @@
       "rent": 705.0,
       "title": "Appartement 1 pièce 93500",
       "url": "https://www.bienici.com/annonce/dauchez-32750"
-    },
-    "bienici:dauchez-33273": {
-      "first_seen": "2026-11-16T15:58:45.673962+00:00",
-      "rent": 706.0,
-      "title": "Studio 1 pièce 92500",
-      "url": "https://www.bienici.com/annonce/dauchez-33273"
     },
     "bienici:dauchez-39449": {
       "first_seen": "2026-11-25T22:48:55.838907+00:00",
@@ -989,6 +965,12 @@
       "title": "Appartement à louer de 1 pièce de 29.64 m²",
       "url": "https://www.bienici.com/annonce/guy-hoquet-18-GT0335-3643"
     },
+    "bienici:guy-hoquet-18-GT0672-92137": {
+      "first_seen": "2026-11-26T23:20:32.061356+00:00",
+      "rent": 630.0,
+      "title": "Studio meuble avec terrasse",
+      "url": "https://www.bienici.com/annonce/guy-hoquet-18-GT0672-92137"
+    },
     "bienici:guy-hoquet-immo-facile-5563534": {
       "first_seen": "2026-11-16T15:58:45.673971+00:00",
       "rent": 638.0,
@@ -1000,12 +982,6 @@
       "rent": 550.0,
       "title": "Appartement Paris 1 pièce(s) 10 m2",
       "url": "https://www.bienici.com/annonce/guy-hoquet-immo-facile-6102760"
-    },
-    "bienici:guy-hoquet-immo-facile-6575969": {
-      "first_seen": "2026-11-24T20:05:11.050994+00:00",
-      "rent": 800.0,
-      "title": "CHAVILLE : Studio de 27 m² en location",
-      "url": "https://www.bienici.com/annonce/guy-hoquet-immo-facile-6575969"
     },
     "bienici:guy-hoquet-immo-facile-7818010": {
       "first_seen": "2026-11-16T15:58:45.673704+00:00",
@@ -1108,12 +1084,6 @@
       "rent": 750.0,
       "title": "APPARTEMENT 1 Pièce",
       "url": "https://www.bienici.com/annonce/hektor-fadeuxi11-74"
-    },
-    "bienici:hektor-fmpconsults-158": {
-      "first_seen": "2026-11-16T15:58:45.673630+00:00",
-      "rent": 648.0,
-      "title": "Studio NON MEUBLE  à louer Villejuif avec parking",
-      "url": "https://www.bienici.com/annonce/hektor-fmpconsults-158"
     },
     "bienici:hektor-franklinimmo-1931": {
       "first_seen": "2026-11-17T17:32:09.272977+00:00",
@@ -1241,12 +1211,6 @@
       "title": "RUE DENIS PAPIN - Studio - 19 m²",
       "url": "https://www.bienici.com/annonce/immo-facile-14082067"
     },
-    "bienici:immo-facile-40894467": {
-      "first_seen": "2026-11-26T14:32:40.754184+00:00",
-      "rent": 630.0,
-      "title": "Studio COURBEVOIE - 1 pièce(s) - 20 m2",
-      "url": "https://www.bienici.com/annonce/immo-facile-40894467"
-    },
     "bienici:immo-facile-43279231": {
       "first_seen": "2026-11-16T15:58:45.673974+00:00",
       "rent": 490.0,
@@ -1295,35 +1259,23 @@
       "title": "Studio à louer",
       "url": "https://www.bienici.com/annonce/immo-facile-61717115"
     },
-    "bienici:immo-facile-61736817": {
-      "first_seen": "2026-11-26T14:32:37.227747+00:00",
-      "rent": 558.0,
-      "title": "Appartement NANTERRE 1 pièce(s) 13.27 m2+12.65 m²",
-      "url": "https://www.bienici.com/annonce/immo-facile-61736817"
-    },
     "bienici:immo-facile-61760994": {
       "first_seen": "2026-11-21T00:40:48.019502+00:00",
       "rent": 750.0,
       "title": "Ivry S/S, Studio 15m² meublé, aux portes de Paris",
       "url": "https://www.bienici.com/annonce/immo-facile-61760994"
     },
-    "bienici:immo-facile-61794856": {
-      "first_seen": "2026-11-26T14:32:39.562579+00:00",
-      "rent": 612.0,
-      "title": "STUDIO Surface 13.62 m² + 7.48",
-      "url": "https://www.bienici.com/annonce/immo-facile-61794856"
-    },
-    "bienici:immo-facile-61795968": {
-      "first_seen": "2026-11-26T14:32:46.420181+00:00",
-      "rent": 778.0,
-      "title": "Appartement Nanterre 1 pièce(s) 24.02 m2",
-      "url": "https://www.bienici.com/annonce/immo-facile-61795968"
-    },
     "bienici:immo-facile-61796936": {
       "first_seen": "2026-11-26T14:32:45.293487+00:00",
       "rent": 740.0,
       "title": "Appartement Le Perreux Sur Marne 1 pièce(s) 32.45 m2",
       "url": "https://www.bienici.com/annonce/immo-facile-61796936"
+    },
+    "bienici:immo-facile-61797927": {
+      "first_seen": "2026-11-26T23:20:29.606147+00:00",
+      "rent": 450.0,
+      "title": "Studette meublée-Paris 1 pièce(s) 9.02 m2",
+      "url": "https://www.bienici.com/annonce/immo-facile-61797927"
     },
     "bienici:ladresse-1-adresse-12319113": {
       "first_seen": "2026-11-17T00:09:18.418852+00:00",
@@ -1343,23 +1295,29 @@
       "title": "PASSY- Studio meublé",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-17245533"
     },
-    "bienici:laforet-immo-facile-19724769": {
-      "first_seen": "2026-11-24T20:05:07.295318+00:00",
-      "rent": 774.0,
-      "title": "Appartement Boulogne Billancourt 1 pièce(s) 14.69 m2",
-      "url": "https://www.bienici.com/annonce/laforet-immo-facile-19724769"
-    },
     "bienici:laforet-immo-facile-20905760": {
       "first_seen": "2026-11-23T23:46:01.530406+00:00",
       "rent": 735.0,
       "title": "BONDY(93)",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-20905760"
     },
+    "bienici:laforet-immo-facile-21153735": {
+      "first_seen": "2026-11-26T23:20:39.303166+00:00",
+      "rent": 800.0,
+      "title": "CHAMPIGNY SUR MARNE - LE PLANT - BLVD ARISITIDE BRIAND - LOUE MEUBLE",
+      "url": "https://www.bienici.com/annonce/laforet-immo-facile-21153735"
+    },
     "bienici:laforet-immo-facile-21837657": {
       "first_seen": "2026-11-16T15:58:45.673952+00:00",
       "rent": 682.93,
       "title": "Appartement Fontenay Aux Roses 1 pièce(s) 18.60 m²",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-21837657"
+    },
+    "bienici:laforet-immo-facile-22231000": {
+      "first_seen": "2026-11-26T23:20:38.117881+00:00",
+      "rent": 790.0,
+      "title": "LOCATION STUDIO 29m2 - 2 min Gare RER SUCY BONNEUIL.",
+      "url": "https://www.bienici.com/annonce/laforet-immo-facile-22231000"
     },
     "bienici:laforet-immo-facile-52731049": {
       "first_seen": "2026-11-16T15:58:45.673875+00:00",

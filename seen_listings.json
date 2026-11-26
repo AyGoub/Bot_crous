@@ -11,29 +11,23 @@
       "title": "Résidence étudiante Du Parc — 1 logement disponible",
       "url": "https://www.arpej.fr/fr/residence/du-parc-residence-etudiante-charenton-le-pont/"
     },
-    "arpej:etudiante-pierre-vidal-naquet-saint-denis": {
-      "first_seen": "2026-11-25T16:31:14.784657+00:00",
-      "rent": 431.0,
-      "title": "Résidence étudiante Pierre Vidal-Naquet — 1 logement disponible",
-      "url": "https://www.arpej.fr/fr/residence/etudiante-pierre-vidal-naquet-saint-denis/"
-    },
     "arpej:frida-kahlo-residence-etudiante-montreuil": {
       "first_seen": "2026-11-25T16:31:14.784655+00:00",
       "rent": 556.0,
       "title": "Résidence étudiante Frida Kahlo — 1 logement disponible",
       "url": "https://www.arpej.fr/fr/residence/frida-kahlo-residence-etudiante-montreuil/"
     },
+    "arpej:les-choux-de-creteil-residence-etudiante": {
+      "first_seen": "2026-11-26T14:33:16.263596+00:00",
+      "rent": 413.0,
+      "title": "Résidence étudiante Les Choux — 2 logements disponibles",
+      "url": "https://www.arpej.fr/fr/residence/les-choux-de-creteil-residence-etudiante/"
+    },
     "arpej:pierre-gilles-de-gennes-residence-etudiante-villejuif": {
       "first_seen": "2026-11-25T16:31:14.784662+00:00",
       "rent": 610.0,
       "title": "Résidence étudiante Pierre-gilles De Gennes – Villejuif — 1 logement disponible",
       "url": "https://www.arpej.fr/fr/residence/pierre-gilles-de-gennes-residence-etudiante-villejuif/"
-    },
-    "arpej:val-pompadour-residence-etudiante-valenton": {
-      "first_seen": "2026-11-25T16:31:14.784660+00:00",
-      "rent": 588.0,
-      "title": "Résidence étudiante Val Pompadour — 1 logement disponible",
-      "url": "https://www.arpej.fr/fr/residence/val-pompadour-residence-etudiante-valenton/"
     },
     "arpej:volti-residence-etudiante-cachan": {
       "first_seen": "2026-11-25T16:31:14.784633+00:00",
@@ -52,6 +46,12 @@
       "rent": 770.1,
       "title": "Appartement Meublé- RDC -  20,27 m² - T1 - Proche Tram T2",
       "url": "https://www.bienici.com/annonce/ag210198-562189907"
+    },
+    "bienici:ag210198-562885967": {
+      "first_seen": "2026-11-26T14:32:47.587960+00:00",
+      "rent": 790.0,
+      "title": "Appartement - 4ème étage - 27,40 m2 - 1 pièce - Meublé",
+      "url": "https://www.bienici.com/annonce/ag210198-562885967"
     },
     "bienici:ag313862-553823012": {
       "first_seen": "2026-11-24T20:05:06.111673+00:00",
@@ -407,6 +407,12 @@
       "title": "Co-location à Chevilly-Larue (94550)",
       "url": "https://www.bienici.com/annonce/ag755239-471811730"
     },
+    "bienici:ag755239-505460249": {
+      "first_seen": "2026-11-26T14:32:38.339646+00:00",
+      "rent": 597.0,
+      "title": "Co-location à Saint-Denis (93380)",
+      "url": "https://www.bienici.com/annonce/ag755239-505460249"
+    },
     "bienici:ag755239-505502426": {
       "first_seen": "2026-11-16T15:58:45.673901+00:00",
       "rent": 680.0,
@@ -472,12 +478,6 @@
       "rent": 730.0,
       "title": "Co-location à La Courneuve (93120)",
       "url": "https://www.bienici.com/annonce/ag755239-562142084"
-    },
-    "bienici:ag756001-562727018": {
-      "first_seen": "2026-11-25T22:48:44.169266+00:00",
-      "rent": 450.0,
-      "title": "Appartement 1 pièce à Paris (75018)",
-      "url": "https://www.bienici.com/annonce/ag756001-562727018"
     },
     "bienici:ag771667-551364308": {
       "first_seen": "2026-11-16T15:58:45.673838+00:00",
@@ -839,12 +839,6 @@
       "title": "T1 25 m² — Livry-Gargan",
       "url": "https://www.bienici.com/annonce/citya-immobilier-31734074300036-GES72310004-720"
     },
-    "bienici:citya-immobilier-5049-GES06331015-182": {
-      "first_seen": "2026-11-25T22:48:57.050112+00:00",
-      "rent": 799.22,
-      "title": "T1 25.01 m² — Paris 13e",
-      "url": "https://www.bienici.com/annonce/citya-immobilier-5049-GES06331015-182"
-    },
     "bienici:citya-immobilier-5051-GES31410035-220": {
       "first_seen": "2026-11-25T22:48:47.543277+00:00",
       "rent": 610.41,
@@ -1139,6 +1133,12 @@
       "title": "Appartement type T1",
       "url": "https://www.bienici.com/annonce/hektor-grolotusimmo-393"
     },
+    "bienici:hektor-immoscope-13476": {
+      "first_seen": "2026-11-26T14:32:43.027579+00:00",
+      "rent": 675.0,
+      "title": "F1 de 23m2 à louer à Vitry-Sur-Seine",
+      "url": "https://www.bienici.com/annonce/hektor-immoscope-13476"
+    },
     "bienici:hektor-immoscope-520": {
       "first_seen": "2026-11-16T15:58:45.673869+00:00",
       "rent": 720.0,
@@ -1150,12 +1150,6 @@
       "rent": 756.0,
       "title": "Le Perreux sur Marne, Studio Rue Gallieni",
       "url": "https://www.bienici.com/annonce/hektor-immospid94170-676"
-    },
-    "bienici:hektor-lagenceparisienne-2248": {
-      "first_seen": "2026-11-16T15:58:45.673732+00:00",
-      "rent": 800.0,
-      "title": "INVESTISSEMENT A LEVALLOIS",
-      "url": "https://www.bienici.com/annonce/hektor-lagenceparisienne-2248"
     },
     "bienici:hektor-letudeducentre-455": {
       "first_seen": "2026-11-18T16:28:16.083781+00:00",
@@ -1192,6 +1186,12 @@
       "rent": 579.0,
       "title": "Location Appartement 1 pièce",
       "url": "https://www.bienici.com/annonce/iad-france-1952174"
+    },
+    "bienici:iad-france-2056629": {
+      "first_seen": "2026-11-26T14:32:44.155049+00:00",
+      "rent": 697.0,
+      "title": "Location Appartement 1 pièce",
+      "url": "https://www.bienici.com/annonce/iad-france-2056629"
     },
     "bienici:iad-france-2135753": {
       "first_seen": "2026-11-16T15:58:45.673737+00:00",
@@ -1234,6 +1234,18 @@
       "rent": 790.0,
       "title": "Studio Duplex 26,85 m2 - La Plaine Saint Denis",
       "url": "https://www.bienici.com/annonce/ifsp6a-5492290"
+    },
+    "bienici:immo-facile-14082067": {
+      "first_seen": "2026-11-26T14:32:41.914355+00:00",
+      "rent": 650.0,
+      "title": "RUE DENIS PAPIN - Studio - 19 m²",
+      "url": "https://www.bienici.com/annonce/immo-facile-14082067"
+    },
+    "bienici:immo-facile-40894467": {
+      "first_seen": "2026-11-26T14:32:40.754184+00:00",
+      "rent": 630.0,
+      "title": "Studio COURBEVOIE - 1 pièce(s) - 20 m2",
+      "url": "https://www.bienici.com/annonce/immo-facile-40894467"
     },
     "bienici:immo-facile-43279231": {
       "first_seen": "2026-11-16T15:58:45.673974+00:00",
@@ -1283,11 +1295,35 @@
       "title": "Studio à louer",
       "url": "https://www.bienici.com/annonce/immo-facile-61717115"
     },
+    "bienici:immo-facile-61736817": {
+      "first_seen": "2026-11-26T14:32:37.227747+00:00",
+      "rent": 558.0,
+      "title": "Appartement NANTERRE 1 pièce(s) 13.27 m2+12.65 m²",
+      "url": "https://www.bienici.com/annonce/immo-facile-61736817"
+    },
     "bienici:immo-facile-61760994": {
       "first_seen": "2026-11-21T00:40:48.019502+00:00",
       "rent": 750.0,
       "title": "Ivry S/S, Studio 15m² meublé, aux portes de Paris",
       "url": "https://www.bienici.com/annonce/immo-facile-61760994"
+    },
+    "bienici:immo-facile-61794856": {
+      "first_seen": "2026-11-26T14:32:39.562579+00:00",
+      "rent": 612.0,
+      "title": "STUDIO Surface 13.62 m² + 7.48",
+      "url": "https://www.bienici.com/annonce/immo-facile-61794856"
+    },
+    "bienici:immo-facile-61795968": {
+      "first_seen": "2026-11-26T14:32:46.420181+00:00",
+      "rent": 778.0,
+      "title": "Appartement Nanterre 1 pièce(s) 24.02 m2",
+      "url": "https://www.bienici.com/annonce/immo-facile-61795968"
+    },
+    "bienici:immo-facile-61796936": {
+      "first_seen": "2026-11-26T14:32:45.293487+00:00",
+      "rent": 740.0,
+      "title": "Appartement Le Perreux Sur Marne 1 pièce(s) 32.45 m2",
+      "url": "https://www.bienici.com/annonce/immo-facile-61796936"
     },
     "bienici:ladresse-1-adresse-12319113": {
       "first_seen": "2026-11-17T00:09:18.418852+00:00",

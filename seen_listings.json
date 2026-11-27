@@ -59,6 +59,12 @@
       "title": "Studio",
       "url": "https://www.bienici.com/annonce/ag313862-553823012"
     },
+    "bienici:ag313862-563278055": {
+      "first_seen": "2026-11-27T23:40:49.130574+00:00",
+      "rent": 708.0,
+      "title": "Studio",
+      "url": "https://www.bienici.com/annonce/ag313862-563278055"
+    },
     "bienici:ag314948-550379408": {
       "first_seen": "2026-11-16T15:58:45.673750+00:00",
       "rent": 690.0,
@@ -599,6 +605,12 @@
       "title": "Appartement À Louer",
       "url": "https://www.bienici.com/annonce/ag942110-398414587"
     },
+    "bienici:ag942110-456483536": {
+      "first_seen": "2026-11-27T23:40:51.344073+00:00",
+      "rent": 750.0,
+      "title": "Appartement À Louer",
+      "url": "https://www.bienici.com/annonce/ag942110-456483536"
+    },
     "bienici:ag942110-549151046": {
       "first_seen": "2026-11-16T15:58:45.673850+00:00",
       "rent": 750.0,
@@ -839,23 +851,23 @@
       "title": "T1 25 m² — Livry-Gargan",
       "url": "https://www.bienici.com/annonce/citya-immobilier-31734074300036-GES72310004-720"
     },
-    "bienici:citya-immobilier-5051-GES31410035-220": {
-      "first_seen": "2026-11-25T22:48:47.543277+00:00",
-      "rent": 610.41,
-      "title": "T1 29.32 m² — Noisy-le-Grand",
-      "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES31410035-220"
-    },
-    "bienici:citya-immobilier-5051-GES31920022-220": {
-      "first_seen": "2026-11-25T03:33:51.961412+00:00",
-      "rent": 742.45,
-      "title": "T1 33.6 m² — Noisy-le-Grand",
-      "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES31920022-220"
-    },
     "bienici:citya-immobilier-5051-GES52860052-220": {
       "first_seen": "2026-11-16T15:58:45.673970+00:00",
       "rent": 745.0,
       "title": "T1 34.23 m² — Noisy-le-Grand",
       "url": "https://www.bienici.com/annonce/citya-immobilier-5051-GES52860052-220"
+    },
+    "bienici:citya-immobilier-749865-GES06320005-478": {
+      "first_seen": "2026-11-27T23:40:46.021754+00:00",
+      "rent": 678.27,
+      "title": "T1 18 m² — Le Perreux-sur-Marne",
+      "url": "https://www.bienici.com/annonce/citya-immobilier-749865-GES06320005-478"
+    },
+    "bienici:dauchez-23582": {
+      "first_seen": "2026-11-27T23:40:47.117417+00:00",
+      "rent": 692.0,
+      "title": "Studio 1 pièce 93160",
+      "url": "https://www.bienici.com/annonce/dauchez-23582"
     },
     "bienici:dauchez-31162": {
       "first_seen": "2026-11-20T18:51:20.623012+00:00",
@@ -1229,12 +1241,6 @@
       "title": "Appartement STAINS - Studio 19.04m2",
       "url": "https://www.bienici.com/annonce/immo-facile-43279231"
     },
-    "bienici:immo-facile-44206008": {
-      "first_seen": "2026-11-24T20:05:09.731842+00:00",
-      "rent": 790.0,
-      "title": "STUDIO CHATENAY MALABRY - 1 pièce(s) - 33.18 m2",
-      "url": "https://www.bienici.com/annonce/immo-facile-44206008"
-    },
     "bienici:immo-facile-53383662": {
       "first_seen": "2026-11-25T13:31:46.424491+00:00",
       "rent": 788.0,
@@ -1294,12 +1300,6 @@
       "rent": 690.0,
       "title": "Appartement Courbevoie Studio meublé - 10.42 m2",
       "url": "https://www.bienici.com/annonce/ladresse-1-adresse-13264379"
-    },
-    "bienici:laforet-immo-facile-17245533": {
-      "first_seen": "2026-11-25T16:30:42.683933+00:00",
-      "rent": 750.0,
-      "title": "PASSY- Studio meublé",
-      "url": "https://www.bienici.com/annonce/laforet-immo-facile-17245533"
     },
     "bienici:laforet-immo-facile-20905760": {
       "first_seen": "2026-11-23T23:46:01.530406+00:00",
@@ -1397,6 +1397,12 @@
       "title": "Appartement à louer Clamart",
       "url": "https://www.bienici.com/annonce/netty-company35363kzj-appt-2591"
     },
+    "bienici:netty-company36905zuv-appt-11313": {
+      "first_seen": "2026-11-27T23:40:44.912655+00:00",
+      "rent": 666.0,
+      "title": "Appartement à louer Bourg-la-reine",
+      "url": "https://www.bienici.com/annonce/netty-company36905zuv-appt-11313"
+    },
     "bienici:netty-company36905zuv-appt-13475": {
       "first_seen": "2026-11-18T23:03:53.325672+00:00",
       "rent": 680.0,
@@ -1444,6 +1450,18 @@
       "rent": 700.0,
       "title": "STUDIO - VITRY-SUR-SEINE - MEUBLE 31 M²",
       "url": "https://www.bienici.com/annonce/netty-company54028bva-appt-2566"
+    },
+    "bienici:netty-company57934nur-appt-5816": {
+      "first_seen": "2026-11-27T23:40:43.812347+00:00",
+      "rent": 665.0,
+      "title": "Studio meublé Exelmans",
+      "url": "https://www.bienici.com/annonce/netty-company57934nur-appt-5816"
+    },
+    "bienici:netty-company57934nur-appt-6698": {
+      "first_seen": "2026-11-27T23:40:50.242612+00:00",
+      "rent": 750.0,
+      "title": "Location studio meublé à Suresnes avec ascenseur et vue Tour E",
+      "url": "https://www.bienici.com/annonce/netty-company57934nur-appt-6698"
     },
     "bienici:netty-cost92-appt-20269": {
       "first_seen": "2026-11-17T23:58:33.013319+00:00",

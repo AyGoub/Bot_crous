@@ -5,23 +5,17 @@
     "crous"
   ],
   "listings": {
-    "arpej:du-parc-residence-etudiante-charenton-le-pont": {
-      "first_seen": "2026-11-25T16:31:14.784652+00:00",
-      "rent": 593.0,
-      "title": "Résidence étudiante Du Parc — 1 logement disponible",
-      "url": "https://www.arpej.fr/fr/residence/du-parc-residence-etudiante-charenton-le-pont/"
+    "arpej:alpha-residence-etudiante-aubervilliers": {
+      "first_seen": "2026-11-27T15:29:18.400016+00:00",
+      "rent": 442.0,
+      "title": "Résidence étudiante Alpha — 1 logement disponible",
+      "url": "https://www.arpej.fr/fr/residence/alpha-residence-etudiante-aubervilliers/"
     },
     "arpej:frida-kahlo-residence-etudiante-montreuil": {
       "first_seen": "2026-11-25T16:31:14.784655+00:00",
       "rent": 556.0,
       "title": "Résidence étudiante Frida Kahlo — 1 logement disponible",
       "url": "https://www.arpej.fr/fr/residence/frida-kahlo-residence-etudiante-montreuil/"
-    },
-    "arpej:les-choux-de-creteil-residence-etudiante": {
-      "first_seen": "2026-11-26T14:33:16.263596+00:00",
-      "rent": 413.0,
-      "title": "Résidence étudiante Les Choux — 2 logements disponibles",
-      "url": "https://www.arpej.fr/fr/residence/les-choux-de-creteil-residence-etudiante/"
     },
     "arpej:pierre-gilles-de-gennes-residence-etudiante-villejuif": {
       "first_seen": "2026-11-25T16:31:14.784662+00:00",
@@ -130,12 +124,6 @@
       "rent": 699.0,
       "title": "T1 meublé - 6, Rue Doudeauville, 75018, Paris, France",
       "url": "https://www.bienici.com/annonce/ag752345-561265100"
-    },
-    "bienici:ag752345-562137863": {
-      "first_seen": "2026-11-23T11:57:51.884407+00:00",
-      "rent": 680.68,
-      "title": "Porte de Bagnolet",
-      "url": "https://www.bienici.com/annonce/ag752345-562137863"
     },
     "bienici:ag752345-563005349": {
       "first_seen": "2026-11-26T23:20:36.841686+00:00",
@@ -431,6 +419,12 @@
       "title": "Co-location à Villiers-sur-Marne (94350)",
       "url": "https://www.bienici.com/annonce/ag755239-548207288"
     },
+    "bienici:ag755239-551412851": {
+      "first_seen": "2026-11-27T15:28:45.939285+00:00",
+      "rent": 600.0,
+      "title": "Co-location à Sevran (93270)",
+      "url": "https://www.bienici.com/annonce/ag755239-551412851"
+    },
     "bienici:ag755239-554252582": {
       "first_seen": "2026-11-24T20:04:58.510360+00:00",
       "rent": 635.0,
@@ -514,6 +508,12 @@
       "rent": 654.0,
       "title": "Studio à Louer sur Saint-Denis",
       "url": "https://www.bienici.com/annonce/ag922145-439623122"
+    },
+    "bienici:ag922145-563110022": {
+      "first_seen": "2026-11-27T15:28:47.726168+00:00",
+      "rent": 605.66,
+      "title": "Studio À Louer",
+      "url": "https://www.bienici.com/annonce/ag922145-563110022"
     },
     "bienici:ag922805-562431422": {
       "first_seen": "2026-11-24T20:05:08.528412+00:00",
@@ -622,6 +622,12 @@
       "rent": 693.0,
       "title": "PIERREFITTE-SUR-SEINE – STUDIO MEUBLÉ DE 27 M²",
       "url": "https://www.bienici.com/annonce/ag943167-562727636"
+    },
+    "bienici:apimo-1019484": {
+      "first_seen": "2026-11-27T15:28:44.276586+00:00",
+      "rent": 525.0,
+      "title": "PARIS 16 EME JASMIN PARIS 16 - 1 pièce(s) - 10 m2",
+      "url": "https://www.bienici.com/annonce/apimo-1019484"
     },
     "bienici:apimo-5881547": {
       "first_seen": "2026-11-24T20:04:52.030910+00:00",
@@ -911,11 +917,11 @@
       "title": "NATION LOCATION 1 PIECE",
       "url": "https://www.bienici.com/annonce/gedeon-33834648"
     },
-    "bienici:gedeon-33987544": {
-      "first_seen": "2026-11-16T15:58:45.673834+00:00",
-      "rent": 778.0,
-      "title": "Studio Fontenay sous Bois",
-      "url": "https://www.bienici.com/annonce/gedeon-33987544"
+    "bienici:gedeon-34041750": {
+      "first_seen": "2026-11-27T15:28:53.571975+00:00",
+      "rent": 720.0,
+      "title": "Studio à 2 pas de la place de l'Eglise",
+      "url": "https://www.bienici.com/annonce/gedeon-34041750"
     },
     "bienici:gedeon-34162633": {
       "first_seen": "2026-11-16T15:58:45.673736+00:00",
@@ -971,11 +977,11 @@
       "title": "Appartement à louer de 1 pièce de 29.64 m²",
       "url": "https://www.bienici.com/annonce/guy-hoquet-18-GT0335-3643"
     },
-    "bienici:guy-hoquet-18-GT0672-92137": {
-      "first_seen": "2026-11-26T23:20:32.061356+00:00",
-      "rent": 630.0,
-      "title": "Studio meuble avec terrasse",
-      "url": "https://www.bienici.com/annonce/guy-hoquet-18-GT0672-92137"
+    "bienici:guy-hoquet-18-GT0423-2456": {
+      "first_seen": "2026-11-27T15:28:54.688412+00:00",
+      "rent": 750.0,
+      "title": "Appartement Noisy Le Grand 1 pièce(s) 27.60 m2",
+      "url": "https://www.bienici.com/annonce/guy-hoquet-18-GT0423-2456"
     },
     "bienici:guy-hoquet-immo-facile-5563534": {
       "first_seen": "2026-11-16T15:58:45.673971+00:00",
@@ -1277,12 +1283,6 @@
       "title": "Appartement Le Perreux Sur Marne 1 pièce(s) 32.45 m2",
       "url": "https://www.bienici.com/annonce/immo-facile-61796936"
     },
-    "bienici:immo-facile-61797927": {
-      "first_seen": "2026-11-26T23:20:29.606147+00:00",
-      "rent": 450.0,
-      "title": "Studette meublée-Paris 1 pièce(s) 9.02 m2",
-      "url": "https://www.bienici.com/annonce/immo-facile-61797927"
-    },
     "bienici:ladresse-1-adresse-12319113": {
       "first_seen": "2026-11-17T00:09:18.418852+00:00",
       "rent": 731.39,
@@ -1349,6 +1349,12 @@
       "title": "Studio Boulogne - Point du Jour",
       "url": "https://www.bienici.com/annonce/laforet-immo-facile-53012859"
     },
+    "bienici:laforet-immo-facile-53022837": {
+      "first_seen": "2026-11-27T15:28:52.426412+00:00",
+      "rent": 720.0,
+      "title": "Appartement Saint Denis 1 pièce(s) 22.04 m2",
+      "url": "https://www.bienici.com/annonce/laforet-immo-facile-53022837"
+    },
     "bienici:laforet-immo-facile-53027653": {
       "first_seen": "2026-11-17T17:32:17.407242+00:00",
       "rent": 800.0,
@@ -1414,6 +1420,12 @@
       "rent": 800.0,
       "title": "T1-VITRY-SUR-SEINE-23.09m2",
       "url": "https://www.bienici.com/annonce/netty-company54028bva-appt-16599"
+    },
+    "bienici:netty-company54028bva-appt-16944": {
+      "first_seen": "2026-11-27T15:28:50.224544+00:00",
+      "rent": 710.0,
+      "title": "T1-VITRY-SUR-SEINE-23m2",
+      "url": "https://www.bienici.com/annonce/netty-company54028bva-appt-16944"
     },
     "bienici:netty-company54028bva-appt-16956": {
       "first_seen": "2026-11-17T17:32:16.262846+00:00",

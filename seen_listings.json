@@ -335,6 +335,12 @@
       "title": "Studio",
       "url": "https://www.bienici.com/annonce/ag754025-558980900"
     },
+    "bienici:ag754025-563282555": {
+      "first_seen": "2026-11-28T04:59:08.281928+00:00",
+      "rent": 750.0,
+      "title": "Studio",
+      "url": "https://www.bienici.com/annonce/ag754025-563282555"
+    },
     "bienici:ag754125-532493651": {
       "first_seen": "2026-11-16T15:58:45.673877+00:00",
       "rent": 800.0,
@@ -683,12 +689,6 @@
       "title": "SUCY EN BRIE - Grand studio de 36 m²",
       "url": "https://www.bienici.com/annonce/apimo-87438937"
     },
-    "bienici:apimo-87499939": {
-      "first_seen": "2026-11-25T16:30:40.187716+00:00",
-      "rent": 680.0,
-      "title": "STUDIO MEUBLE - AVENUE DAUMESNIL - PARFAIT ETAT",
-      "url": "https://www.bienici.com/annonce/apimo-87499939"
-    },
     "bienici:apimo-87540579": {
       "first_seen": "2026-11-16T15:58:45.673712+00:00",
       "rent": 800.0,
@@ -749,6 +749,12 @@
       "title": "T1 25 m² — Bourg-la-Reine",
       "url": "https://www.bienici.com/annonce/century-21-202_119_9131"
     },
+    "bienici:century-21-202_2433_12032": {
+      "first_seen": "2026-11-28T04:59:07.118325+00:00",
+      "rent": 747.0,
+      "title": "T1 35.7 m² — Villiers-sur-Marne",
+      "url": "https://www.bienici.com/annonce/century-21-202_2433_12032"
+    },
     "bienici:century-21-202_2772_7031": {
       "first_seen": "2026-11-16T15:58:45.673855+00:00",
       "rent": 535.0,
@@ -808,6 +814,12 @@
       "rent": 652.13,
       "title": "T1 9.16 m² — Alfortville",
       "url": "https://www.bienici.com/annonce/century-21-202_3219_10269"
+    },
+    "bienici:century-21-202_3608_2307": {
+      "first_seen": "2026-11-28T04:59:05.963550+00:00",
+      "rent": 690.0,
+      "title": "T1 31.61 m² — Tremblay-en-France",
+      "url": "https://www.bienici.com/annonce/century-21-202_3608_2307"
     },
     "bienici:century-21-202_44_19554": {
       "first_seen": "2026-11-16T15:58:45.673841+00:00",
@@ -1199,12 +1211,6 @@
       "title": "Location Appartement 1 pièce",
       "url": "https://www.bienici.com/annonce/iad-france-2150019"
     },
-    "bienici:iad-france-2158012": {
-      "first_seen": "2026-11-16T15:58:45.673657+00:00",
-      "rent": 740.0,
-      "title": "Location Appartement 1 pièce",
-      "url": "https://www.bienici.com/annonce/iad-france-2158012"
-    },
     "bienici:iad-france-2161763": {
       "first_seen": "2026-11-17T23:58:35.402924+00:00",
       "rent": 756.0,
@@ -1450,18 +1456,6 @@
       "rent": 700.0,
       "title": "STUDIO - VITRY-SUR-SEINE - MEUBLE 31 M²",
       "url": "https://www.bienici.com/annonce/netty-company54028bva-appt-2566"
-    },
-    "bienici:netty-company57934nur-appt-5816": {
-      "first_seen": "2026-11-27T23:40:43.812347+00:00",
-      "rent": 665.0,
-      "title": "Studio meublé Exelmans",
-      "url": "https://www.bienici.com/annonce/netty-company57934nur-appt-5816"
-    },
-    "bienici:netty-company57934nur-appt-6698": {
-      "first_seen": "2026-11-27T23:40:50.242612+00:00",
-      "rent": 750.0,
-      "title": "Location studio meublé à Suresnes avec ascenseur et vue Tour E",
-      "url": "https://www.bienici.com/annonce/netty-company57934nur-appt-6698"
     },
     "bienici:netty-cost92-appt-20269": {
       "first_seen": "2026-11-17T23:58:33.013319+00:00",
